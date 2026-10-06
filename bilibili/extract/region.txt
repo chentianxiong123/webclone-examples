@@ -1,0 +1,50 @@
+===== 页面区域地图（1440x900）=====
+[R1] (60,-171) 516x810 abs div .carousel-footer-mask
+  内容: (空)
+  ├─ 子 (331,107) 54x192  div .loc-mc-box | 看诺奖 看诺奖
+  │  └─ (0,64) 54x64 .v-popover-wrap | 看诺奖 看诺奖
+  │  └─ (0,64) 54x64 . | 看诺奖 看诺奖
+[R2] (-456,265) 516x374  div .vui_carousel__slide
+  内容: (空)
+  ├─ 子 (0,0) 516x294  div .carousel-area | (空)
+  ├─ 子 (0,0) 516x294  div .carousel-area-img | (空)
+[R3] (-456,265) 516x294  div .carousel-area
+  内容: (空)
+[R4] (1092,265) 516x374  div .vui_carousel__slide
+  内容: (空)
+  ├─ 子 (0,0) 516x294  div .carousel-area | (空)
+  │  └─ (40,0) 248x215 .feed-card | 5.2万 236 02:59 反若娜瓦联盟.ex
+  │  └─ (40,0) 248x215 .bili-feed-card | 5.2万 236 02:59 反若娜瓦联盟.ex
+  │  └─ (40,0) 248x215 .bili-video-card | 5.2万 236 02:59 反若娜瓦联盟.ex
+  │  └─ (40,0) 248x215 .bili-video-card__wrap | 5.2万 236 02:59 反若娜瓦联盟.ex
+  │  └─ (298,0) 40x89 .feed-roll-btn | 换一换
+  │  └─ (298,0) 40x89 .roll-btn | 换一换
+  ├─ 子 (0,0) 516x294  div .carousel-area-img | (空)
+[R5] (1092,265) 516x294  div .carousel-area
+  内容: (空)
+  ├─ 子 (40,0) 248x215  div .feed-card | 5.2万 236 02:59 反若娜瓦联盟.
+  │  └─ (0,0) 248x140 .bili-video-card__image | 5.2万 236 02:59
+  │  └─ (0,0) 248x140 .bili-video-card__image--wrap | (空)
+  │  └─ (0,0) 248x140 .v-inline-player | (空)
+  │  └─ (0,0) 248x140 .bili-video-card__mask | 5.2万 236 02:59
+  │  └─ (0,150) 248x65 .bili-video-card__info | 反若娜瓦联盟.exe 阿遥那家伙 · 6小时前
+  │  └─ (0,150) 248x65 .bili-video-card__info--right | 反若娜瓦联盟.exe 阿遥那家伙 · 6小时前
+  ├─ 子 (40,0) 248x215  div .bili-feed-card | 5.2万 236 02:59 反若娜瓦联盟.
+  ├─ 子 (40,0) 248x215  div .bili-video-card | 5.2万 236 02:59 反若娜瓦联盟.
+  ├─ 子 (40,0) 248x215  div .bili-video-card__wrap | 5.2万 236 02:59 反若娜瓦联盟.
+  ├─ 子 (298,0) 40x89  div .feed-roll-btn | 换一换
+  ├─ 子 (298,0) 40x89  button .roll-btn | 换一换
+node:fs:2914
+    return binding.writeFileUtf8(
+                   ^
+
+Error: ENOENT: no such file or directory, open '/tmp/bilibili-extract/region/region-map.html'
+    at Object.writeFileSync (node:fs:2914:20)
+    at /mnt/shared/translate-workflow/scripts/region-map.js:155:6 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/tmp/bilibili-extract/region/region-map.html'
+}
+
+Node.js v26.5.0
