@@ -1,0 +1,19 @@
+{
+  "cls": "IcHmn0gj",
+  "capturedAt": "2026-10-05T10:03:13.027Z",
+  "elemCount": 371,
+  "textCount": 252,
+  "attrCount": 353,
+  "maxDepth": 6,
+  "tagDist": {
+    "div": 64,
+    "ol": 2,
+    "li": 26,
+    "input": 1,
+    "p": 22,
+    "span": 201,
+    "i": 55
+  },
+  "uniqueClasses": 17,
+  "inlineStyled": 12
+}

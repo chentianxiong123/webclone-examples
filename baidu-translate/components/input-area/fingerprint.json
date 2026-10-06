@@ -1,0 +1,22 @@
+{
+  "cls": "DWOp2n2u",
+  "capturedAt": "2026-10-05T10:59:30.339Z",
+  "elemCount": 84,
+  "textCount": 2,
+  "attrCount": 166,
+  "maxDepth": 18,
+  "tagDist": {
+    "div": 18,
+    "span": 20,
+    "br": 1,
+    "input": 1,
+    "svg": 7,
+    "g": 7,
+    "path": 22,
+    "defs": 2,
+    "lineargradient": 2,
+    "stop": 4
+  },
+  "uniqueClasses": 25,
+  "inlineStyled": 7
+}

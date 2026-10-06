@@ -1,0 +1,18 @@
+{
+  "cls": "Hu5qsRSB",
+  "capturedAt": "2026-10-05T11:03:37.562Z",
+  "elemCount": 31,
+  "textCount": 16,
+  "attrCount": 13,
+  "maxDepth": 5,
+  "tagDist": {
+    "div": 9,
+    "ul": 2,
+    "li": 4,
+    "strong": 4,
+    "span": 10,
+    "br": 2
+  },
+  "uniqueClasses": 10,
+  "inlineStyled": 0
+}

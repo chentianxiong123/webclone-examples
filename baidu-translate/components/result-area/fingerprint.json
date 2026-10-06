@@ -1,0 +1,16 @@
+{
+  "cls": "FfEykO6W",
+  "capturedAt": "2026-10-05T11:02:32.177Z",
+  "elemCount": 8,
+  "textCount": 1,
+  "attrCount": 15,
+  "maxDepth": 6,
+  "tagDist": {
+    "div": 4,
+    "span": 1,
+    "svg": 1,
+    "path": 2
+  },
+  "uniqueClasses": 6,
+  "inlineStyled": 1
+}

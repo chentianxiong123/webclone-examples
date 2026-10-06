@@ -1,0 +1,14 @@
+{
+  "cls": "QsZTmd8Y",
+  "capturedAt": "2026-10-05T11:04:03.051Z",
+  "elemCount": 6,
+  "textCount": 0,
+  "attrCount": 6,
+  "maxDepth": 2,
+  "tagDist": {
+    "div": 2,
+    "span": 4
+  },
+  "uniqueClasses": 9,
+  "inlineStyled": 0
+}

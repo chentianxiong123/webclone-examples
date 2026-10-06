@@ -1,0 +1,17 @@
+{
+  "cls": "ant-tabs-right",
+  "capturedAt": "2026-10-05T11:03:54.529Z",
+  "elemCount": 19,
+  "textCount": 0,
+  "attrCount": 55,
+  "maxDepth": 6,
+  "tagDist": {
+    "div": 13,
+    "span": 3,
+    "button": 1,
+    "svg": 1,
+    "path": 1
+  },
+  "uniqueClasses": 24,
+  "inlineStyled": 3
+}

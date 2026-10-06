@@ -1,0 +1,18 @@
+{
+  "cls": "qphmPPyw",
+  "capturedAt": "2026-10-05T11:03:46.019Z",
+  "elemCount": 79,
+  "textCount": 15,
+  "attrCount": 129,
+  "maxDepth": 11,
+  "tagDist": {
+    "div": 56,
+    "span": 19,
+    "img": 1,
+    "button": 1,
+    "svg": 1,
+    "path": 1
+  },
+  "uniqueClasses": 70,
+  "inlineStyled": 21
+}
