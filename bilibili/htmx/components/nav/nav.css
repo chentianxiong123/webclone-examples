@@ -1,0 +1,170 @@
+/* hc-nav：语义化导航样式（值 = 原版实测基准，非抄规则）
+   基准：banner 155 灰#e3e5e7+顶部渐变遮罩 | menu 透明 64 白字
+   left gap15 宽按文字 | search 575,16 320x32 | right 等宽50 右缘24 | 投稿蓝 90x34 */
+.hc-nav {
+  position: relative;
+  height: 265px;
+  min-width: 1000px;
+  background: #fff;
+}
+
+/* ① banner：155px，浅灰 + 顶部 100px 黑色渐变遮罩（原版 taper-line） */
+.hc-nav-banner {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 155px;
+  background: #e3e5e7;
+}
+.hc-nav-banner::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 100px;
+  background: linear-gradient(180deg, rgba(0,0,0,.4), rgba(0,0,0,0));
+  pointer-events: none;
+}
+.hc-nav-logo {
+  position: absolute;
+  bottom: 10px; left: 24px;
+  width: 180px;
+  height: 60px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 60'%3E%3Crect width='180' height='60' rx='10' fill='%23fb7299'/%3E%3Ctext x='22' y='39' font-size='24' font-weight='bold' fill='white' font-family='sans-serif'%3Ebilibili%3C/text%3E%3C/svg%3E") no-repeat;
+  background-size: contain;
+}
+
+/* ② 菜单条：透明浮层，左项 gap15 文字14 白 */
+.hc-nav-menu {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  padding: 0 24px 0 24px;
+}
+
+.hc-nav-left {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  flex-shrink: 0;
+}
+
+.hc-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  margin-right: 15px;              /* 原版 gap = 15 固定 */
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.hc-nav-item:hover { font-weight: 600; }
+.hc-nav-item.is-home { width: 52px; }    /* 首页：图标+文字 */
+.hc-nav-item.is-fanju { width: 28px; }   /* 番剧 */
+.hc-nav-item.is-live { width: 28px; }    /* 直播 */
+.hc-nav-item.is-game { width: 56px; }    /* 游戏中心 */
+.hc-nav-item.is-vipshop { width: 42px; } /* 会员购 */
+.hc-nav-item.is-cartoon { width: 28px; } /* 漫画 */
+.hc-nav-item.is-match { width: 28px; }   /* 赛事 */
+.hc-nav-item.is-loc { width: 54px; }     /* 看诺奖 */
+.hc-nav-item.is-dl { width: 90px; margin-right: 0; } /* 下载客户端（最后项无 gap） */
+
+/* 搜索：575,16 320x32 r6（白字显于遮罩上，视觉白底圆角） */
+.hc-nav-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  width: 320px;
+  height: 32px;
+  margin: 0 0 0 25px;
+  padding: 0 12px;
+  border-radius: 6px;
+  background: rgba(255,255,255,.92);
+}
+.hc-nav-search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #616a6d;
+  font-size: 14px;
+}
+
+/* 右入口：等宽50 距右缘24，用 margin-left:auto 贴右 */
+.hc-nav-right {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 7px;
+}
+
+.hc-nav-ri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 43px;
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.hc-nav-ri:hover { font-weight: 600; }
+.hc-nav-vip { width: 50px; }        /* 大会员 50 */
+.hc-nav-login { width: 50px; }      /* 登录 50 */
+.hc-nav-ri:nth-child(7) { width: 52px; }  /* 创作中心 52 */
+.hc-nav-post {                       /* 投稿：蓝按钮 90x34 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 34px;
+  margin-left: 10px;
+  margin-top: 4px;
+  border-radius: 6px;
+  background: #00a1d6;
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 动态下拉面板（HTMX 目标） */
+.hc-nav-dyn-panel {
+  position: absolute;
+  top: 56px;
+  right: 190px;
+  width: 240px;
+  display: none;
+  background: #fff;
+  color: #18191c;
+  border-radius: 8px;
+  box-shadow: 0 6px 24px rgba(0,0,0,.15);
+  padding: 12px;
+}
+
+/* ③ 下层频道区：banner 下 46px，灰字 */
+.hc-nav-channels {
+  position: absolute;
+  top: 155px; left: 200px;
+  display: flex;
+  gap: 14px;
+  height: 46px;
+  align-items: center;
+}
+.hc-nav-channel {
+  color: #616a6d;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.hc-nav-channel:hover { color: #00a1d6; }

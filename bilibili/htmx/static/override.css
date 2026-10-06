@@ -1,0 +1,13 @@
+/* 导航自定义换色（override，不动原版 CSS） */
+.hc-nav-flag .trigger-text,
+.hc-nav-flag .trigger-icon {
+  color: #ff4d6a !important;
+  fill: #ff4d6a !important;
+}
+.hc-nav-flag .trigger-text {
+  font-weight: 600;
+}
+.icon-title.hc-nav-hot {
+  color: #ff6b00 !important;
+  font-weight: 600;
+}

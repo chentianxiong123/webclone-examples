@@ -1,0 +1,58 @@
+<!-- hc-nav：B站导航栏语义化重建
+     视觉基准（原版实测）：banner 155px 灰底+顶部渐变遮罩 | menu 64px 透明浮层
+     left gap=15px 文字宽 | 搜索 575,16 320x32 | right 等宽 50 | 投稿 蓝按钮 90x34 -->
+<header class="hc-nav">
+  <!-- ① banner 155px -->
+  <div class="hc-nav-banner">
+    <a class="hc-nav-logo" href="#" title="哔哩哔哩"></a>
+  </div>
+
+  <!-- ② 菜单条 64px（浮在 banner 上） -->
+  <div class="hc-nav-menu">
+    <nav class="hc-nav-left">
+      <a class="hc-nav-item is-home" href="#">首页</a>
+      <a class="hc-nav-item is-fanju" href="#">番剧</a>
+      <a class="hc-nav-item is-live" href="#">直播</a>
+      <a class="hc-nav-item is-game" href="#">游戏中心</a>
+      <a class="hc-nav-item is-vipshop" href="#">会员购</a>
+      <a class="hc-nav-item is-cartoon" href="#">漫画</a>
+      <a class="hc-nav-item is-match" href="#">赛事</a>
+      <a class="hc-nav-item is-loc" href="#"><span class="hc-nav-loc">看诺奖</span></a>
+      <a class="hc-nav-item is-dl" href="#">下载客户端</a>
+    </nav>
+
+    <div class="hc-nav-search">
+      <input class="hc-nav-search-input" type="text" placeholder="搜索" />
+      <span class="hc-nav-search-icon"></span>
+    </div>
+
+    <div class="hc-nav-right">
+      <a class="hc-nav-ri hc-nav-login" href="#">登录</a>
+      <a class="hc-nav-ri hc-nav-vip" href="#">大会员</a>
+      <a class="hc-nav-ri" href="#">消息</a>
+      <a class="hc-nav-ri hc-nav-dyn" href="#"
+         hx-get="/api/nav/dyn" hx-trigger="click" hx-target="#hc-nav-dyn-panel" hx-swap="innerHTML">动态</a>
+      <a class="hc-nav-ri" href="#">收藏</a>
+      <a class="hc-nav-ri" href="#">历史</a>
+      <a class="hc-nav-ri" href="#">创作中心</a>
+      <a class="hc-nav-post" href="#">投稿</a>
+    </div>
+    <div id="hc-nav-dyn-panel" class="hc-nav-dyn-panel" hx-on::after-swap="this.style.display='block'"></div>
+  </div>
+
+  <!-- ③ 下层频道区（简版占位） -->
+  <div class="hc-nav-channels">
+    <a class="hc-nav-channel" href="#">番剧</a>
+    <a class="hc-nav-channel" href="#">电影</a>
+    <a class="hc-nav-channel" href="#">国创</a>
+    <a class="hc-nav-channel" href="#">电视剧</a>
+    <a class="hc-nav-channel" href="#">综艺</a>
+    <a class="hc-nav-channel" href="#">纪录片</a>
+    <a class="hc-nav-channel" href="#">动画</a>
+    <a class="hc-nav-channel" href="#">游戏</a>
+    <a class="hc-nav-channel" href="#">鬼畜</a>
+    <a class="hc-nav-channel" href="#">音乐</a>
+    <a class="hc-nav-channel" href="#">舞蹈</a>
+    <a class="hc-nav-channel" href="#">影视</a>
+  </div>
+</header>
