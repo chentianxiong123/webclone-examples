@@ -1,0 +1,15 @@
+# Compiled binaries
+bilibili/htmx/bili-htmx
+*.exe
+*.o
+*.so
+*.dylib
+
+# Logs / env
+*.log
+.env
+.DS_Store
+
+# Editor caches
+.vscode/
+.idea/
