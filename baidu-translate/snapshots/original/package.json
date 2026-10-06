@@ -1,0 +1,7 @@
+{
+  "name": "snapshot-server",
+  "private": true,
+  "scripts": {
+    "serve": "node server.js"
+  }
+}

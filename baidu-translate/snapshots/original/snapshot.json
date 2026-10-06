@@ -1,0 +1,1311 @@
+{
+  "sourceUrl": "https://fanyi.baidu.com",
+  "timestamp": "2026-10-05T07:34:15.754Z",
+  "stats": {
+    "total": 100,
+    "fetched": 99,
+    "failed": 1,
+    "skipped": 0,
+    "totalBytes": 23130835
+  },
+  "assets": [
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/css/vendors.1d4a8a7f.css",
+      "localPath": "assets/css/static/cat/css/vendors.1d4a8a7f.css",
+      "type": "css",
+      "status": "fetched",
+      "size": 3517899,
+      "mime": "text/css; charset=utf-8",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/css/index.ecc94679.css",
+      "localPath": "assets/css/static/cat/css/index.ecc94679.css",
+      "type": "css",
+      "status": "fetched",
+      "size": 773629,
+      "mime": "text/css; charset=utf-8",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/lib/pdfjs/2.6.347/web/pdf_viewer.css",
+      "localPath": "assets/css/lib/pdfjs/2.6.347/web/pdf_viewer.css",
+      "type": "css",
+      "status": "fetched",
+      "size": 9324,
+      "mime": "text/css",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/editorPageVendors.chunk.dfa61f01.js",
+      "localPath": "assets/js/static/cat/js/editorPageVendors.chunk.dfa61f01.js",
+      "type": "js",
+      "status": "fetched",
+      "size": 422326,
+      "mime": "text/javascript; charset=utf-8",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/css/796.chunk.1c82a210.css",
+      "localPath": "assets/js/static/cat/css/796.chunk.1c82a210.css",
+      "type": "js",
+      "status": "fetched",
+      "size": 41357,
+      "mime": "text/css; charset=utf-8",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/796.chunk.8a52f697.js",
+      "localPath": "assets/js/static/cat/js/796.chunk.8a52f697.js",
+      "type": "js",
+      "status": "fetched",
+      "size": 619775,
+      "mime": "text/javascript; charset=utf-8",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/51.chunk.d8134185.js",
+      "localPath": "assets/js/static/cat/js/51.chunk.d8134185.js",
+      "type": "js",
+      "status": "fetched",
+      "size": 76019,
+      "mime": "text/javascript; charset=utf-8",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/css/editorPage.chunk.df652be8.css",
+      "localPath": "assets/js/static/cat/css/editorPage.chunk.df652be8.css",
+      "type": "js",
+      "status": "fetched",
+      "size": 67574,
+      "mime": "text/css; charset=utf-8",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/editorPage.chunk.01ea15fc.js",
+      "localPath": "assets/js/static/cat/js/editorPage.chunk.01ea15fc.js",
+      "type": "js",
+      "status": "fetched",
+      "size": 867449,
+      "mime": "text/javascript; charset=utf-8",
+      "error": null
+    },
+    {
+      "originUrl": "https://hm.baidu.com/hm.js?c777062e330c4e1baa7d2a6a75cb0e14",
+      "localPath": null,
+      "type": "js",
+      "status": "failed",
+      "size": 0,
+      "mime": "",
+      "error": "Content validation failed: content type mismatch (text/plain; charset=utf-8)"
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/fanyi_data_statistics/mttj.v1.latest.js",
+      "localPath": "assets/js/fanyi_data_statistics/mttj.v1.latest.js",
+      "type": "js",
+      "status": "fetched",
+      "size": 19751,
+      "mime": "text/javascript",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/runtime.98c76df9.js",
+      "localPath": "assets/js/static/cat/js/runtime.98c76df9.js",
+      "type": "js",
+      "status": "fetched",
+      "size": 6662,
+      "mime": "text/javascript; charset=utf-8",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/vendors.400b819a.js",
+      "localPath": "assets/js/static/cat/js/vendors.400b819a.js",
+      "type": "js",
+      "status": "fetched",
+      "size": 4631648,
+      "mime": "text/javascript; charset=utf-8",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/index.a5023d3d.js",
+      "localPath": "assets/js/static/cat/js/index.a5023d3d.js",
+      "type": "js",
+      "status": "fetched",
+      "size": 5575144,
+      "mime": "text/javascript; charset=utf-8",
+      "error": null
+    },
+    {
+      "originUrl": "https://dlswbr.baidu.com/heicha/mw/abclite-2060-s.js?_=248775",
+      "localPath": "assets/js/heicha/mw/abclite-2060-s.js",
+      "type": "js",
+      "status": "fetched",
+      "size": 191395,
+      "mime": "application/javascript",
+      "error": null
+    },
+    {
+      "originUrl": "https://dlswbr.baidu.com/heicha/mm/2060/acs-2060.js?_=248775",
+      "localPath": "assets/js/heicha/mm/2060/acs-2060.js",
+      "type": "js",
+      "status": "fetched",
+      "size": 226311,
+      "mime": "application/javascript",
+      "error": null
+    },
+    {
+      "originUrl": "https://passport.baidu.com/passApi/js/uni_login_wrapper.js",
+      "localPath": "assets/js/passApi/js/uni_login_wrapper.js",
+      "type": "js",
+      "status": "fetched",
+      "size": 8634,
+      "mime": "application/x-javascript",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/lib/pdfjs/2.6.347/pdf.min.js",
+      "localPath": "assets/js/lib/pdfjs/2.6.347/pdf.min.js",
+      "type": "js",
+      "status": "fetched",
+      "size": 439190,
+      "mime": "text/javascript",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/lib/pdfjs/2.6.347/web/pdf_viewer.js",
+      "localPath": "assets/js/lib/pdfjs/2.6.347/web/pdf_viewer.js",
+      "type": "js",
+      "status": "fetched",
+      "size": 236970,
+      "mime": "text/javascript",
+      "error": null
+    },
+    {
+      "originUrl": "https://miao.baidu.com/e.js",
+      "localPath": "assets/js/e.js",
+      "type": "js",
+      "status": "fetched",
+      "size": 305,
+      "mime": "application/javascript; charset=utf-8",
+      "error": null
+    },
+    {
+      "originUrl": "https://dlswbr.baidu.com/heicha/abclite-extra-script/2060/index.js?_=248775",
+      "localPath": "assets/js/heicha/abclite-extra-script/2060/index.js",
+      "type": "js",
+      "status": "fetched",
+      "size": 1697,
+      "mime": "application/javascript",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/logo.b10defd4.png",
+      "localPath": "assets/img/static/cat/asset/logo.b10defd4.png",
+      "type": "img",
+      "status": "fetched",
+      "size": 4243,
+      "mime": "image/png",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/icon_to_page.34c93e62.png",
+      "localPath": "assets/img/static/cat/asset/icon_to_page.34c93e62.png",
+      "type": "img",
+      "status": "fetched",
+      "size": 271,
+      "mime": "image/png",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/chicken.b165d8c9.png",
+      "localPath": "assets/img/static/cat/asset/chicken.b165d8c9.png",
+      "type": "img",
+      "status": "fetched",
+      "size": 4746,
+      "mime": "image/png",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/icon-guide.8544858e.svg",
+      "localPath": "assets/img/static/cat/asset/icon-guide.8544858e.svg",
+      "type": "img",
+      "status": "fetched",
+      "size": 1281,
+      "mime": "image/svg+xml",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/css/vendors.1d4a8a7f.css#linearGradient-1",
+      "localPath": "assets/css/static/cat/css/vendors.1d4a8a7f.css",
+      "type": "css",
+      "status": "fetched",
+      "size": 3517899,
+      "mime": "text/css; charset=utf-8",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_AMS-Regular.73ea273a.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_AMS-Regular.73ea273a.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 28076,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_AMS-Regular.d562e886.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_AMS-Regular.d562e886.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 33516,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_AMS-Regular.853be924.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_AMS-Regular.853be924.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 63632,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Caligraphic-Bold.a1abf90d.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Caligraphic-Bold.a1abf90d.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 6912,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Caligraphic-Bold.d757c535.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Caligraphic-Bold.d757c535.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 7716,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Caligraphic-Bold.7489a2fb.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Caligraphic-Bold.7489a2fb.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 12368,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Caligraphic-Regular.d6484fce.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Caligraphic-Regular.d6484fce.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 6908,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Caligraphic-Regular.db074fa2.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Caligraphic-Regular.db074fa2.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 7656,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Caligraphic-Regular.7e873d38.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Caligraphic-Regular.7e873d38.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 12344,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Fraktur-Bold.931d67ea.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Fraktur-Bold.931d67ea.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 11348,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Fraktur-Bold.354501ba.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Fraktur-Bold.354501ba.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 13296,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Fraktur-Bold.4c761b37.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Fraktur-Bold.4c761b37.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 19584,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Fraktur-Regular.172d3529.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Fraktur-Regular.172d3529.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 11316,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Fraktur-Regular.6fdf0ac5.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Fraktur-Regular.6fdf0ac5.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 13208,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Fraktur-Regular.ed305b54.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Fraktur-Regular.ed305b54.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 19572,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Bold.39890742.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Main-Bold.39890742.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 25324,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Bold.0c3b8929.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Main-Bold.0c3b8929.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 29912,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Bold.8169508b.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Main-Bold.8169508b.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 51336,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-BoldItalic.20f389c4.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Main-BoldItalic.20f389c4.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 16780,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-BoldItalic.428978dc.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Main-BoldItalic.428978dc.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 19412,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-BoldItalic.828abcb2.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Main-BoldItalic.828abcb2.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 32968,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Italic.fe2176f7.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Main-Italic.fe2176f7.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 16988,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Italic.fd947498.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Main-Italic.fd947498.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 19676,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Italic.fa675e5e.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Main-Italic.fa675e5e.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 33580,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Regular.f650f111.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Main-Regular.f650f111.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 26272,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Regular.4f35fbcc.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Main-Regular.4f35fbcc.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 30772,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Regular.9eba1d77.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Main-Regular.9eba1d77.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 53580,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Math-BoldItalic.dcbcbd93.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Math-BoldItalic.dcbcbd93.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 16400,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Math-BoldItalic.3f07ed67.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Math-BoldItalic.3f07ed67.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 18668,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Math-BoldItalic.bf2d440b.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Math-BoldItalic.bf2d440b.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 31196,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Math-Italic.6d3d25f4.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Math-Italic.6d3d25f4.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 16440,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Math-Italic.96759856.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Math-Italic.96759856.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 18748,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Math-Italic.8a5f9363.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Math-Italic.8a5f9363.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 31308,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Bold.95591a92.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_SansSerif-Bold.95591a92.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 12216,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Bold.b9cd458a.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_SansSerif-Bold.b9cd458a.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 14408,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Bold.5b49f499.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_SansSerif-Bold.5b49f499.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 24504,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Italic.7d393d38.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_SansSerif-Italic.7d393d38.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 12028,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Italic.8d593cfa.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_SansSerif-Italic.8d593cfa.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 14112,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Italic.b257a18c.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_SansSerif-Italic.b257a18c.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 22364,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Regular.cd5e231e.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_SansSerif-Regular.cd5e231e.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 10344,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Regular.02271ec5.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_SansSerif-Regular.02271ec5.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 12316,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Regular.2f7bc363.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_SansSerif-Regular.2f7bc363.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 19436,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Script-Regular.c81d1b2a.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Script-Regular.c81d1b2a.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 9644,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Script-Regular.073b3402.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Script-Regular.073b3402.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 10588,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Script-Regular.fc9ba524.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Script-Regular.fc9ba524.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 16648,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size1-Regular.6eec866c.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Size1-Regular.6eec866c.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 5468,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size1-Regular.0108e89c.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Size1-Regular.0108e89c.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 6496,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size1-Regular.6de7d4b5.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Size1-Regular.6de7d4b5.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 12228,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size2-Regular.2960900c.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Size2-Regular.2960900c.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 5208,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size2-Regular.3a99e70a.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Size2-Regular.3a99e70a.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 6188,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size2-Regular.57f5c183.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Size2-Regular.57f5c183.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 11508,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size3-Regular.e1951519.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Size3-Regular.e1951519.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 3624,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size3-Regular.7947224e.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Size3-Regular.7947224e.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 4420,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size3-Regular.8d6b6822.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Size3-Regular.8d6b6822.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 7588,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size4-Regular.e418bf25.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Size4-Regular.e418bf25.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 4928,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size4-Regular.aeffd802.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Size4-Regular.aeffd802.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 5980,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size4-Regular.4ad7c7e8.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Size4-Regular.4ad7c7e8.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 10364,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Typewriter-Regular.c295e7f7.woff2",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Typewriter-Regular.c295e7f7.woff2",
+      "type": "font",
+      "status": "fetched",
+      "size": 13568,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Typewriter-Regular.4c6b94fd.woff",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Typewriter-Regular.4c6b94fd.woff",
+      "type": "font",
+      "status": "fetched",
+      "size": 16028,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Typewriter-Regular.c5c02d76.ttf",
+      "localPath": "assets/fonts/static/cat/asset/KaTeX_Typewriter-Regular.c5c02d76.ttf",
+      "type": "font",
+      "status": "fetched",
+      "size": 27556,
+      "mime": "application/octet-stream",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/fcd4edc429a9ac51501d967753ebc5da.png",
+      "localPath": "assets/img/cms/image/fcd4edc429a9ac51501d967753ebc5da.png.jpg",
+      "type": "img",
+      "status": "fetched",
+      "size": 5698,
+      "mime": "image/jpeg",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/3d83325323dc98b269ac4f0d71db0667.png",
+      "localPath": "assets/img/cms/image/3d83325323dc98b269ac4f0d71db0667.png.jpg",
+      "type": "img",
+      "status": "fetched",
+      "size": 27953,
+      "mime": "image/jpeg",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/baf791524c6c06d15050be34f245e96f.png",
+      "localPath": "assets/img/cms/image/baf791524c6c06d15050be34f245e96f.png.jpg",
+      "type": "img",
+      "status": "fetched",
+      "size": 2764,
+      "mime": "image/jpeg",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/5bfef57bb651e02b77c239665884110f.png",
+      "localPath": "assets/img/cms/image/5bfef57bb651e02b77c239665884110f.png.jpg",
+      "type": "img",
+      "status": "fetched",
+      "size": 18488,
+      "mime": "image/jpeg",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/e740ec59ea824c322c2b087e92ca127e.png",
+      "localPath": "assets/img/cms/image/e740ec59ea824c322c2b087e92ca127e.png.jpg",
+      "type": "img",
+      "status": "fetched",
+      "size": 12873,
+      "mime": "image/jpeg",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/845f824788b3b8b63deb78b071c467ba.png",
+      "localPath": "assets/img/cms/image/845f824788b3b8b63deb78b071c467ba.png.jpg",
+      "type": "img",
+      "status": "fetched",
+      "size": 54493,
+      "mime": "image/jpeg",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/a48ad7cf65ac27bf3dace3a7a5fa5f4d.png",
+      "localPath": "assets/img/cms/image/a48ad7cf65ac27bf3dace3a7a5fa5f4d.png.jpg",
+      "type": "img",
+      "status": "fetched",
+      "size": 71253,
+      "mime": "image/jpeg",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/358fba52925915636ef6bbb587821458.png",
+      "localPath": "assets/img/cms/image/358fba52925915636ef6bbb587821458.png.jpg",
+      "type": "img",
+      "status": "fetched",
+      "size": 99141,
+      "mime": "image/jpeg",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/63b28264b88875feeec337f2928635f2.png",
+      "localPath": "assets/img/cms/image/63b28264b88875feeec337f2928635f2.png.jpg",
+      "type": "img",
+      "status": "fetched",
+      "size": 776,
+      "mime": "image/jpeg",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/c1cbc3c065dfedd25374320b9d73eab3.png",
+      "localPath": "assets/img/cms/image/c1cbc3c065dfedd25374320b9d73eab3.png.jpg",
+      "type": "img",
+      "status": "fetched",
+      "size": 336744,
+      "mime": "image/jpeg",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/d4f6bbf57a4e6707b441a8a9b0e1d59f.png",
+      "localPath": "assets/img/cms/image/d4f6bbf57a4e6707b441a8a9b0e1d59f.png.jpg",
+      "type": "img",
+      "status": "fetched",
+      "size": 151635,
+      "mime": "image/jpeg",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/a13dc01f57839337436a1dfcaaa536f1.png",
+      "localPath": "assets/img/cms/image/a13dc01f57839337436a1dfcaaa536f1.png.jpg",
+      "type": "img",
+      "status": "fetched",
+      "size": 7994,
+      "mime": "image/jpeg",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/1bae68f67b452f031d384ac62dc470b1.png",
+      "localPath": "assets/img/cms/image/1bae68f67b452f031d384ac62dc470b1.png.jpg",
+      "type": "img",
+      "status": "fetched",
+      "size": 682,
+      "mime": "image/jpeg",
+      "error": null
+    },
+    {
+      "originUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/d98d0cfd35f931f28b9266088a137b61.png",
+      "localPath": "assets/img/cms/image/d98d0cfd35f931f28b9266088a137b61.png.jpg",
+      "type": "img",
+      "status": "fetched",
+      "size": 2270,
+      "mime": "image/jpeg",
+      "error": null
+    }
+  ],
+  "manifest": {
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/css/vendors.1d4a8a7f.css": {
+      "size": 3517899,
+      "mime": "text/css; charset=utf-8"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/css/index.ecc94679.css": {
+      "size": 773629,
+      "mime": "text/css; charset=utf-8"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/lib/pdfjs/2.6.347/web/pdf_viewer.css": {
+      "size": 9324,
+      "mime": "text/css"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/editorPageVendors.chunk.dfa61f01.js": {
+      "size": 422326,
+      "mime": "text/javascript; charset=utf-8"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/css/796.chunk.1c82a210.css": {
+      "size": 41357,
+      "mime": "text/css; charset=utf-8"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/796.chunk.8a52f697.js": {
+      "size": 619775,
+      "mime": "text/javascript; charset=utf-8"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/51.chunk.d8134185.js": {
+      "size": 76019,
+      "mime": "text/javascript; charset=utf-8"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/css/editorPage.chunk.df652be8.css": {
+      "size": 67574,
+      "mime": "text/css; charset=utf-8"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/editorPage.chunk.01ea15fc.js": {
+      "size": 867449,
+      "mime": "text/javascript; charset=utf-8"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/fanyi_data_statistics/mttj.v1.latest.js": {
+      "size": 19751,
+      "mime": "text/javascript"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/runtime.98c76df9.js": {
+      "size": 6662,
+      "mime": "text/javascript; charset=utf-8"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/vendors.400b819a.js": {
+      "size": 4631648,
+      "mime": "text/javascript; charset=utf-8"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/index.a5023d3d.js": {
+      "size": 5575144,
+      "mime": "text/javascript; charset=utf-8"
+    },
+    "https://dlswbr.baidu.com/heicha/mw/abclite-2060-s.js?_=248775": {
+      "size": 191395,
+      "mime": "application/javascript"
+    },
+    "https://dlswbr.baidu.com/heicha/mm/2060/acs-2060.js?_=248775": {
+      "size": 226311,
+      "mime": "application/javascript"
+    },
+    "https://passport.baidu.com/passApi/js/uni_login_wrapper.js": {
+      "size": 8634,
+      "mime": "application/x-javascript"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/lib/pdfjs/2.6.347/pdf.min.js": {
+      "size": 439190,
+      "mime": "text/javascript"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/lib/pdfjs/2.6.347/web/pdf_viewer.js": {
+      "size": 236970,
+      "mime": "text/javascript"
+    },
+    "https://miao.baidu.com/e.js": {
+      "size": 305,
+      "mime": "application/javascript; charset=utf-8"
+    },
+    "https://dlswbr.baidu.com/heicha/abclite-extra-script/2060/index.js?_=248775": {
+      "size": 1697,
+      "mime": "application/javascript"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/logo.b10defd4.png": {
+      "size": 4243,
+      "mime": "image/png"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/icon_to_page.34c93e62.png": {
+      "size": 271,
+      "mime": "image/png"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/chicken.b165d8c9.png": {
+      "size": 4746,
+      "mime": "image/png"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/icon-guide.8544858e.svg": {
+      "size": 1281,
+      "mime": "image/svg+xml"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/css/vendors.1d4a8a7f.css#linearGradient-1": {
+      "size": 3517899,
+      "mime": "text/css; charset=utf-8"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_AMS-Regular.73ea273a.woff2": {
+      "size": 28076,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_AMS-Regular.d562e886.woff": {
+      "size": 33516,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_AMS-Regular.853be924.ttf": {
+      "size": 63632,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Caligraphic-Bold.a1abf90d.woff2": {
+      "size": 6912,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Caligraphic-Bold.d757c535.woff": {
+      "size": 7716,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Caligraphic-Bold.7489a2fb.ttf": {
+      "size": 12368,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Caligraphic-Regular.d6484fce.woff2": {
+      "size": 6908,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Caligraphic-Regular.db074fa2.woff": {
+      "size": 7656,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Caligraphic-Regular.7e873d38.ttf": {
+      "size": 12344,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Fraktur-Bold.931d67ea.woff2": {
+      "size": 11348,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Fraktur-Bold.354501ba.woff": {
+      "size": 13296,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Fraktur-Bold.4c761b37.ttf": {
+      "size": 19584,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Fraktur-Regular.172d3529.woff2": {
+      "size": 11316,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Fraktur-Regular.6fdf0ac5.woff": {
+      "size": 13208,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Fraktur-Regular.ed305b54.ttf": {
+      "size": 19572,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Bold.39890742.woff2": {
+      "size": 25324,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Bold.0c3b8929.woff": {
+      "size": 29912,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Bold.8169508b.ttf": {
+      "size": 51336,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-BoldItalic.20f389c4.woff2": {
+      "size": 16780,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-BoldItalic.428978dc.woff": {
+      "size": 19412,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-BoldItalic.828abcb2.ttf": {
+      "size": 32968,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Italic.fe2176f7.woff2": {
+      "size": 16988,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Italic.fd947498.woff": {
+      "size": 19676,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Italic.fa675e5e.ttf": {
+      "size": 33580,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Regular.f650f111.woff2": {
+      "size": 26272,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Regular.4f35fbcc.woff": {
+      "size": 30772,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Main-Regular.9eba1d77.ttf": {
+      "size": 53580,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Math-BoldItalic.dcbcbd93.woff2": {
+      "size": 16400,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Math-BoldItalic.3f07ed67.woff": {
+      "size": 18668,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Math-BoldItalic.bf2d440b.ttf": {
+      "size": 31196,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Math-Italic.6d3d25f4.woff2": {
+      "size": 16440,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Math-Italic.96759856.woff": {
+      "size": 18748,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Math-Italic.8a5f9363.ttf": {
+      "size": 31308,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Bold.95591a92.woff2": {
+      "size": 12216,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Bold.b9cd458a.woff": {
+      "size": 14408,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Bold.5b49f499.ttf": {
+      "size": 24504,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Italic.7d393d38.woff2": {
+      "size": 12028,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Italic.8d593cfa.woff": {
+      "size": 14112,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Italic.b257a18c.ttf": {
+      "size": 22364,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Regular.cd5e231e.woff2": {
+      "size": 10344,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Regular.02271ec5.woff": {
+      "size": 12316,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_SansSerif-Regular.2f7bc363.ttf": {
+      "size": 19436,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Script-Regular.c81d1b2a.woff2": {
+      "size": 9644,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Script-Regular.073b3402.woff": {
+      "size": 10588,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Script-Regular.fc9ba524.ttf": {
+      "size": 16648,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size1-Regular.6eec866c.woff2": {
+      "size": 5468,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size1-Regular.0108e89c.woff": {
+      "size": 6496,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size1-Regular.6de7d4b5.ttf": {
+      "size": 12228,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size2-Regular.2960900c.woff2": {
+      "size": 5208,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size2-Regular.3a99e70a.woff": {
+      "size": 6188,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size2-Regular.57f5c183.ttf": {
+      "size": 11508,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size3-Regular.e1951519.woff2": {
+      "size": 3624,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size3-Regular.7947224e.woff": {
+      "size": 4420,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size3-Regular.8d6b6822.ttf": {
+      "size": 7588,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size4-Regular.e418bf25.woff2": {
+      "size": 4928,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size4-Regular.aeffd802.woff": {
+      "size": 5980,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Size4-Regular.4ad7c7e8.ttf": {
+      "size": 10364,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Typewriter-Regular.c295e7f7.woff2": {
+      "size": 13568,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Typewriter-Regular.4c6b94fd.woff": {
+      "size": 16028,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/KaTeX_Typewriter-Regular.c5c02d76.ttf": {
+      "size": 27556,
+      "mime": "application/octet-stream"
+    },
+    "https://fanyiapp.cdn.bcebos.com/cms/image/fcd4edc429a9ac51501d967753ebc5da.png": {
+      "size": 5698,
+      "mime": "image/jpeg"
+    },
+    "https://fanyiapp.cdn.bcebos.com/cms/image/3d83325323dc98b269ac4f0d71db0667.png": {
+      "size": 27953,
+      "mime": "image/jpeg"
+    },
+    "https://fanyiapp.cdn.bcebos.com/cms/image/baf791524c6c06d15050be34f245e96f.png": {
+      "size": 2764,
+      "mime": "image/jpeg"
+    },
+    "https://fanyiapp.cdn.bcebos.com/cms/image/5bfef57bb651e02b77c239665884110f.png": {
+      "size": 18488,
+      "mime": "image/jpeg"
+    },
+    "https://fanyiapp.cdn.bcebos.com/cms/image/e740ec59ea824c322c2b087e92ca127e.png": {
+      "size": 12873,
+      "mime": "image/jpeg"
+    },
+    "https://fanyiapp.cdn.bcebos.com/cms/image/845f824788b3b8b63deb78b071c467ba.png": {
+      "size": 54493,
+      "mime": "image/jpeg"
+    },
+    "https://fanyiapp.cdn.bcebos.com/cms/image/a48ad7cf65ac27bf3dace3a7a5fa5f4d.png": {
+      "size": 71253,
+      "mime": "image/jpeg"
+    },
+    "https://fanyiapp.cdn.bcebos.com/cms/image/358fba52925915636ef6bbb587821458.png": {
+      "size": 99141,
+      "mime": "image/jpeg"
+    },
+    "https://fanyiapp.cdn.bcebos.com/cms/image/63b28264b88875feeec337f2928635f2.png": {
+      "size": 776,
+      "mime": "image/jpeg"
+    },
+    "https://fanyiapp.cdn.bcebos.com/cms/image/c1cbc3c065dfedd25374320b9d73eab3.png": {
+      "size": 336744,
+      "mime": "image/jpeg"
+    },
+    "https://fanyiapp.cdn.bcebos.com/cms/image/d4f6bbf57a4e6707b441a8a9b0e1d59f.png": {
+      "size": 151635,
+      "mime": "image/jpeg"
+    },
+    "https://fanyiapp.cdn.bcebos.com/cms/image/a13dc01f57839337436a1dfcaaa536f1.png": {
+      "size": 7994,
+      "mime": "image/jpeg"
+    },
+    "https://fanyiapp.cdn.bcebos.com/cms/image/1bae68f67b452f031d384ac62dc470b1.png": {
+      "size": 682,
+      "mime": "image/jpeg"
+    },
+    "https://fanyiapp.cdn.bcebos.com/cms/image/d98d0cfd35f931f28b9266088a137b61.png": {
+      "size": 2270,
+      "mime": "image/jpeg"
+    }
+  }
+}

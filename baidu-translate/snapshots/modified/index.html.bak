@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html><head><meta name="snapshot:source" content="https://fanyi.baidu.com"><meta name="snapshot:time" content="2026-10-05T07:34:15.748Z"><style data-rc-order="prepend" rc-util-key="@ant-design-icons">
+.anticon {
+  display: inline-flex;
+  alignItems: center;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.anticon > * {
+  line-height: 1;
+}
+
+.anticon svg {
+  display: inline-block;
+}
+
+.anticon::before {
+  display: none;
+}
+
+.anticon .anticon-icon {
+  display: block;
+}
+
+.anticon[tabindex] {
+  cursor: pointer;
+}
+
+.anticon-spin::before,
+.anticon-spin {
+  display: inline-block;
+  -webkit-animation: loadingCircle 1s infinite linear;
+  animation: loadingCircle 1s infinite linear;
+}
+
+@-webkit-keyframes loadingCircle {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loadingCircle {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+</style><meta charset="utf-8"><title>百度翻译_领先的AI大模型翻译_支持文本/文档/图片翻译</title><meta name="description" content="百度新一代AI大模型翻译平台，提供外文阅读和专业翻译解决方案，实现中、英、日、韩、德等203种语言翻译，支持文本翻译、文档翻译、图片翻译等多模态翻译，拥有传统机器翻译、AI大模型翻译、深度思考模式、AI人工翻译等多引擎，通过翻译SaaS、翻译API、翻译插件、翻译客户端等多形式使用，百度翻译是大模型时代的超级翻译应用。"><meta name="keywords" content="翻译,在线翻译,翻译器,翻译软件,免费翻译,日语翻译,韩语翻译,英语翻译,英汉互译,中英互译,英语在线翻译,机器翻译,AI翻译,大模型翻译,文档翻译,图片翻译,网页翻译,论文翻译,合同翻译,文献翻译,商务翻译,医学翻译,法律翻译,翻译API,翻译客户端,翻译插件"><meta http-equiv="Cache-Control" content="no-cache"><meta http-equiv="Expires" content="0"><meta name="renderer" content="webkit"><meta name="force-rendering" content="webkit"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no,viewport-fit=cover"><link rel="shortcut icon" type="image/x-icon" href="https://fanyi.baidu.com/favicon.ico"><link rel="canonical" href="https://fanyi.baidu.com"><script></script><script src="assets/js/fanyi_data_statistics/mttj.v1.latest.js"></script><script type="application/ld+json">{
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "百度翻译",
+            "description": "百度翻译打造的新一代AI大模型翻译平台，为用户提供翻译和阅读外文场景的一站式智能解决方案，支持中文、英文、日语、韩语、德语、法语等203种语言，包括文档翻译、AI翻译、英文润色、双语审校、语法分析等多种能力，是智能时代的翻译新质生产力。",
+            "url": "https://fanyi.baidu.com"
+        }</script><script>function checkFromBingSearch() {
+            return document.referrer && document.referrer.includes('bing.com');
+        };
+
+        function checkFromBdSearch() {
+            return document.referrer && document.referrer.includes('www.baidu.com');
+        };
+
+        function checkHomeFromAladdin() {
+            return checkFromBdSearch() && location.search.includes('aldtype');
+        };
+
+        function dealExtChannelOnFirstRender() {
+            var url = new URL(window.location.href);
+            var currentExtChannel = url.searchParams.get('ext_channel');
+            // 已有外部渠道,不做处理
+            if (currentExtChannel) {
+                return;
+            }
+
+            if (checkFromBingSearch()) {
+                url.searchParams.set('ext_channel', 'BingSearch');
+            } else if (checkHomeFromAladdin()) {
+                url.searchParams.set('ext_channel', 'Aldtype');
+            } else if (checkFromBdSearch()) {
+                url.searchParams.set('ext_channel', 'DuSearch');
+            }
+            window.history.replaceState({}, '', url.toString());
+        }
+        dealExtChannelOnFirstRender();</script><script>var _mttj = _mttj || [];
+        _mttj.push([
+            '_setAccount',
+            /mtpe-organization/gim.test(window.location.pathname) ? 'sid_2' : 'sid_1'
+        ]);
+        (function () {
+            var mttjs = document.createElement("script");
+            mttjs.src = "https://fanyi-cdn.cdn.bcebos.com/fanyi_data_statistics/mttj.v1.latest.js";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(mttjs, s);
+        })();</script><script>/* eslint-disable fecs-camelcase */
+        /* eslint-disable no-use-before-define */
+        var _hmt = _hmt || [];
+        _hmt.push(['_setAutoPageview', false]);
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?c777062e330c4e1baa7d2a6a75cb0e14";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();</script><script>window.parisSubId = 'pc_mtpe';</script><script defer="defer" src="assets/js/static/cat/js/runtime.98c76df9.js"></script><script defer="defer" src="assets/js/static/cat/js/vendors.400b819a.js"></script><script defer="defer" src="assets/js/static/cat/js/index.a5023d3d.js"></script><link href="assets/css/static/cat/css/vendors.1d4a8a7f.css" rel="stylesheet"><link href="assets/css/static/cat/css/index.ecc94679.css" rel="stylesheet"><style type="text/css">.bioc_popup_wrap{-webkit-tap-highlight-color:transparent;color:#292f3a;font-family:Arial,Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Heiti SC,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;font-size:14px;position:relative;-ms-touch-action:none;touch-action:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.bioc_popup_wrap .bioc_popup_ghost{background-color:rgba(0,0,0,.4);bottom:0;display:block;left:0;position:fixed;right:0;top:0;z-index:2357683636}.bioc_popup_wrap .bioc_popup_ghost .bioc_popup_ghost_close{height:20px;position:absolute;right:10px;top:10px;width:20px}.bioc_popup_wrap .bioc_box_wrap{box-sizing:border-box;display:block;left:50%;min-width:300px;position:fixed;top:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);width:-webkit-min-content;width:-moz-min-content;width:min-content;z-index:2357683636}.bioc_popup_wrap .bioc_box_wrap .bioc_box{-ms-touch-action:none;touch-action:none}</style><style type="text/css">.bioc_disaster_proven_container{box-shadow:0 0 2px rgba(0,0,0,.2);box-sizing:border-box;color:#292f3a;color:#262634;font-family:Arial,Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Heiti SC,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;font-size:14px;height:50px;position:relative;-webkit-transition:all .5s;transition:all .5s;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.bioc_disaster_proven_container:hover{box-shadow:0 0 5px rgba(0,0,0,.2)}.bioc_disaster_proven_container .bioc_disaster_proven_state_icon{margin-right:8px}.bioc_disaster_proven_content{background:#fff;border-left:6px solid #5381fd;box-sizing:border-box;cursor:pointer;overflow:hidden}.bioc_disaster_proven_content .bioc_disaster_proven_close{display:inline-block;font-family:Arial,Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Heiti SC,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;font-size:24px;height:24px;opacity:.4;position:absolute;right:8px;text-align:center;top:13px;-webkit-transition:all .5s;transition:all .5s;vertical-align:middle;width:24px}.bioc_disaster_proven_content .bioc_disaster_proven_close:hover{opacity:.9}.bioc_disaster_proven_content.bioc_disaster_proven_success{border-left-color:#5aa628}.bioc_disaster_proven_content .bioc_disaster_proven_tip_container{height:50px;padding:0 6% 0 8%}.bioc_disaster_proven_content .bioc_disaster_proven_tip_container .bioc_disaster_proven_tip_text{display:inline-block;vertical-align:middle}.bioc_disaster_proven_content .bioc_disaster_proven_tips_wrap{left:20px;position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.bioc_disaster_proven_content .bioc_disaster_proven_tips_wrap .bioc_disaster_proven_tip{cursor:pointer;display:inline-block;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle}</style><link rel="stylesheet" type="text/css" href="assets/css/lib/pdfjs/2.6.347/web/pdf_viewer.css"><link rel="prefetch" as="script" href="assets/js/static/cat/js/editorPageVendors.chunk.dfa61f01.js"><link rel="prefetch" as="style" href="assets/js/static/cat/css/796.chunk.1c82a210.css"><link rel="prefetch" as="script" href="assets/js/static/cat/js/796.chunk.8a52f697.js"><link rel="prefetch" as="script" href="assets/js/static/cat/js/51.chunk.d8134185.js"><link rel="prefetch" as="style" href="assets/js/static/cat/css/editorPage.chunk.df652be8.css"><link rel="prefetch" as="script" href="assets/js/static/cat/js/editorPage.chunk.01ea15fc.js"><script type="text/javascript" charset="utf8" async="" src="assets/js/heicha/mw/abclite-2060-s.js"></script><script type="text/javascript" charset="utf8" async="" src="assets/js/heicha/mm/2060/acs-2060.js"></script><style>
+/* nav-tool.css — 由原版 index.css 规则映射生成（nav-map-gen.py），零手写值 */
+.H_D6CDSf,.hc-mega-trigger { align-items:center;position:relative }
+.Oxiu76vr .hc-mega-go-icon { display:inline-block;height:10px;margin-left:9px;width:6px }
+.hc-badge span { -webkit-text-fill-color:transparent;background:linear-gradient(85deg,#0062ff -3.15%,#cb50ff 98.89%);background-clip:text;-webkit-background-clip:text;font-size:10px;font-style:normal;font-weight:400 }
+.hc-badge { align-items:center;background:linear-gradient(55deg,rgba(74,228,255,.12) -14.12%,rgba(66,130,255,.12) 47.61%,rgba(215,104,255,.12) 105.84%);border:.5px solid #3db0ff;border-radius:31px;display:inline-flex;flex-shrink:0;height:13px;justify-content:center;margin-left:4px;position:relative;top:-1px;width:39px }
+.hc-desk-preview { background-image:url(../snapshots/original/assets/static/cat/asset/desktopIntro.4d1b7f39.png);background-repeat:no-repeat;background-size:contain;cursor:pointer;display:none;height:356px;left:-183px;position:absolute;top:16px;width:410px }
+.hc-ent i { color:#fff;content:"企业版";font-size:13px;font-style:normal }
+.hc-ent { align-items:center;background:linear-gradient(69.78deg,#26275d -48.07%,#7072c2 165.61%);border-radius:20px;cursor:pointer;display:flex;height:24px;justify-content:center;margin-right:2px;padding:0 13px }
+.hc-login .hc-login-link { align-items:center;background:#ebefff;border-radius:42px;color:rgba(11,13,41,.7);display:inline-flex;font-size:13px;font-weight:400;height:24px;justify-content:center;margin-left:8px;text-align:center;transition:all .3s;width:46px }
+.hc-login { align-items:center;cursor:pointer;display:flex;height:100%;justify-content:flex-end;position:relative;width:50px }
+.hc-login.Chwf9fZ1 .A8cmgF_D { top:31px }
+.hc-login.Chwf9fZ1 .F9T47cKP { top:40px }
+.hc-login.Chwf9fZ1 .LT4NmrQn { width:24px }
+.hc-login.Chwf9fZ1 .fOMiAkWf { height:24px;width:24px }
+.hc-login.Chwf9fZ1 .hc-login-link { margin-left:0 }
+.hc-login.Chwf9fZ1 { width:auto }
+.hc-login:hover .F9T47cKP { display:block }
+.hc-logo { margin-right:45px;margin-top:-8.8px;position:relative }
+.hc-logo,.hc-logo img { height:26px;width:85.55px }
+.hc-mega { background:url(../snapshots/original/assets/static/cat/asset/bg.74d57f62.png) no-repeat;background-color:#fff;background-position:111% 107%;border:.5px solid #e8e9eb;border-radius:10px;box-shadow:0 3px 15px 0 rgba(182,187,221,.25);display:block;flex-direction:column;height:451px;position:absolute;right:0;top:36px;width:500px;z-index:200 }
+.hc-mega-col,.hc-mega-group { display:flex;flex-direction:column }
+.hc-mega-flag .hc-mega-caption>span:hover { color:#6585fa }
+.hc-mega-flag.hc-is-on .hc-mega-caption>span { color:#333863!important }
+.hc-mega-group strong i { align-items:center;background:linear-gradient(54.58deg,rgba(74,228,255,.12) -14.12%,rgba(66,130,255,.12) 47.61%,rgba(215,104,255,.12) 105.84%);border:.5px solid #d5d7f9;border-radius:30px;display:inline-flex;font-size:12px;font-style:normal;font-weight:400;height:13px;justify-content:center;margin-left:4px;vertical-align:2px;width:31px }
+.hc-mega-group strong i:before { -webkit-text-fill-color:transparent!important;zoom:.8;background:linear-gradient(85.2deg,#0062ff -3.15%,#cb50ff 98.89%)!important;background-clip:text!important;-webkit-background-clip:text!important;content:"NEW";font-size:12px;font-style:normal }
+.hc-mega-group strong { color:#0b0d29;font-family:PingFang SC;font-size:14px;font-style:normal;font-weight:500;line-height:24px;position:relative }
+.hc-mega-group { margin-bottom:26px }
+.hc-mega-group.hc-mega-go { flex-grow:1;justify-content:flex-end }
+.hc-mega-group>span i { color:#ce2c1f;font-size:12px;line-height:13px;position:absolute;right:-13px;top:-12px }
+.hc-mega-group>span i,.hc-mega-group>span>span { font-family:PingFang SC;font-style:normal;font-weight:400 }
+.hc-mega-group>span { align-items:center;color:rgba(11,13,41,.7);display:flex;font-family:PingFang SC;font-size:13px;font-style:normal;font-weight:400;height:18px;line-height:28px;margin-top:12px;position:relative }
+.hc-mega-group>span:hover { color:#4d85ff }
+.hc-mega-group>span>span { align-items:center;background:#f5f7ff;border:.5px solid #cfdafd;border-radius:4px;color:#4560cd;display:flex;font-size:10px;line-height:10px;margin-left:4px;padding:2px 3.5px;position:relative;text-align:center }
+.hc-mega-inner .hc-mega-go-icon { display:inline-block;height:10px;margin-left:9px;width:6px }
+.hc-mega-inner { display:flex;height:100%;padding:28px 52px 0 }
+.hc-mega-inner,.hc-mega { justify-content:space-between }
+.hc-mega-trigger .hc-mega-caption { align-items:center;display:inline-flex;position:relative }
+.hc-mega-trigger .hc-mega-caption:after { background:url(../snapshots/original/assets/static/cat/asset/to.0f53d4a2.svg) no-repeat 50%;background-size:contain;content:"";height:12px;margin-left:2px;transition:all .3s;width:12px }
+.hc-mega-trigger .hc-mega-caption>div { display:none;z-index:9 }
+.hc-mega-trigger { cursor:pointer;height:100% }
+.hc-mega-trigger,.hc-mega-trigger.hc-is-on .hc-mega { display:flex }
+.hc-mega-trigger.hc-is-on .hc-mega-caption { font-weight:500 }
+.hc-mega-trigger.hc-is-on .hc-mega-caption:after { transform:rotate(180deg) }
+.hc-mega-trigger.hc-is-on .hc-mega-caption>div { display:block }
+.hc-mega-trigger.hc-is-on .hc-mega-caption>span { color:#fff!important }
+.hc-menu .hc-dropdown { align-items:center;background:#fff;border:.5px solid #e8e9eb;border-radius:8px;box-shadow:0 10px 20px rgba(169,173,204,.3);display:none;flex-direction:column;left:-8px;max-width:145px;min-width:107px;padding:6px;position:absolute;top:50px;z-index:11 }
+.hc-menu { align-items:center;display:flex;height:55px;margin-bottom:0;width:100% }
+.hc-menu-item .BJ7K1wh2 { position:relative }
+.hc-menu-item .BJ7K1wh2:after { background-image:url(../snapshots/original/assets/static/cat/asset/hot.7a832a14.png);background-size:100% 100%;content:"";height:16px;position:absolute;right:-21px;top:-13px;width:30px }
+.hc-menu-item .Jiqg6sSy { align-items:center;display:inline-flex;position:relative }
+.hc-menu-item .Jiqg6sSy:after { border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid rgba(51,56,99,.8);content:"";height:0;margin-left:6px;transition:all .3s;width:0 }
+.hc-menu-item .Jiqg6sSy>div { display:none;z-index:9 }
+.hc-menu-item .hc-dropdown-trigger { display:inline-flex }
+.hc-menu-item .hc-dropdown-trigger:after { background:url(../snapshots/original/assets/static/cat/asset/to.0f53d4a2.svg) no-repeat 50%;background-size:contain;content:"";height:12px;margin-left:3px;transition:all .3s;width:12px }
+.hc-menu-item { color:#0b0d29;cursor:pointer;display:flex;font-size:13px;margin-right:20px;position:relative }
+.hc-menu-item,.hc-menu-item .hc-dropdown-trigger { align-items:center;height:100%;white-space:nowrap }
+.hc-menu-item:hover .Jiqg6sSy { position:relative;z-index:1000 }
+.hc-menu-item:hover .Jiqg6sSy:after { transform:rotate(180deg) }
+.hc-menu-item:hover .Jiqg6sSy>div { display:block }
+.hc-menu-item:hover .hc-dropdown { display:flex }
+.hc-menu-item:hover>.hc-dropdown-trigger { color:#6585fa }
+.hc-menu-item:hover>.hc-dropdown-trigger:after { transform:rotate(180deg) }
+.hc-menu-item:hover>span { color:#6585fa }
+.hc-menu-item:last-child { margin-right:20px }
+.hc-menu-link { position:relative }
+.hc-menu-link:hover .hc-desk-preview { display:block }
+.hc-nav,.rislZZt6 { align-items:center;display:flex;height:60px;justify-content:space-between;min-width:1316px;padding:0 20px;position:relative;width:100%;z-index:100 }
+.hc-nav-inner { align-items:center;display:flex;flex:1 1;position:relative }
+.hc-nav-inner:after { background:rgba(56,59,89,.06);content:"";height:12px;margin-right:16px;width:1px }
+.hc-sep:first-of-type { flex:1 1 }
+.hc-vip { align-items:center;background:linear-gradient(98.06deg,#fffdfa,#fff5e5 90.88%);border-radius:20px;color:#724d2b;cursor:pointer;display:flex;font-size:13px;font-weight:500;height:24px;justify-content:center;margin-right:10px;min-width:72px;padding:0 4px;position:relative }
+.hc-vip.IJgwfVF1 { background:linear-gradient(105.05deg,#ff56c1 2.88%,#ff4b37 32.81%,#ff6d68 42.92%,#ff1833 74%,#ffe37d 95.59%),radial-gradient(28.36% 40.91% at 32.5% 100%,rgba(255,233,175,.3) 0,rgba(255,233,175,0) 100%),radial-gradient(25.53% 29.63% at 35.56% 0,rgba(255,97,53,.2) 0,rgba(241,123,90,.2) .01%,rgba(255,97,53,0) 100%),radial-gradient(66.28% 39.72% at 8.77% 6.84%,rgba(255,239,212,.79) 0,rgba(255,214,246,0) 100%),radial-gradient(37.69% 22% at 88.06% 99.51%,rgba(255,247,202,.61) 0,rgba(255,214,246,0) 100%),radial-gradient(73.45% 75.91% at 0 84.23%,rgba(255,126,72,.7) 0,rgba(255,126,72,0) 100%);color:#fff;font-weight:600 }
+.hc-vip.IJgwfVF1>i { -webkit-text-fill-color:#fff;background:none;font-weight:600 }
+.hc-vip>i { -webkit-text-fill-color:transparent;background:linear-gradient(275.01deg,#956119 16.83%,#cd871d 94.91%);background-clip:text;-webkit-background-clip:text;font-style:normal }
+
+/* ============ 手动区（.hc-user 是自定义包装类，原版无对应类，css-map 不会生成） ============ */
+/* 原版结构：三个按钮(会员/企业版/登录)是 nav 直接子，由 vuaaLCO7 flex:1 推到最右、横排 */
+.hc-user {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 60px;
+}
+
+</style>
+<script>
+/* 导航交互 v3 —— 全部按原版实测行为实现
+ * 原版行为（工具提取自 index.css + 实测）：
+ *   - 下拉（我的知识/文档工具）：React mouseenter 展开 —— hover + click 兜底
+ *   - 桌面端：hover → 弹出介绍图（.nxg2lGDt 356px）
+ *   - 全部产品：**click** 展开 mega（.Jr6kYBGZ 激活态 → hc-is-on：文字白/箭头转180/面板显）—— 非 hover
+ *   - 点外部收起全部面板
+ * 注：head 注入，必须包 DOMContentLoaded
+ */
+document.addEventListener('DOMContentLoaded', function () {
+  // 1. 跳转（data-url 无 href，原版 React onClick）
+  function go(el) {
+    var url = el.getAttribute('data-url');
+    if (!url) return;
+    if (url.charAt(0) === '/') location.href = url;
+    else window.open(url, '_blank');
+  }
+  document.addEventListener('click', function (e) {
+    var el = e.target.closest('[data-url]');
+    if (el) { e.preventDefault(); go(el); }
+  });
+
+  // 2. 下拉面板（我的知识/文档工具）：mouseenter/mouseleave + click 兜底
+  document.querySelectorAll('.hc-menu-item.hc-has-dropdown').forEach(function (item) {
+    var panel = item.querySelector('.hc-dropdown');
+    if (!panel) return;
+    var open = function () { panel.classList.add('is-open'); panel.style.display = 'block'; };
+    var close = function () { panel.classList.remove('is-open'); panel.style.display = 'none'; };
+    item.addEventListener('mouseenter', open);
+    item.addEventListener('mouseleave', close);
+    item.addEventListener('click', function (e) {
+      e.stopPropagation();
+      panel.style.display === 'block' ? close() : open();
+    });
+  });
+
+  // 3. 全部产品：click 切换 mega（原版 .Jr6kYBGZ → hc-is-on）
+  var megaItem = document.querySelector('.hc-menu-item .hc-mega-trigger.hc-mega-flag');
+  if (megaItem) {
+    megaItem.addEventListener('click', function (e) {
+      e.stopPropagation();
+      megaItem.classList.toggle('hc-is-on');
+    });
+  }
+
+  // 4. 点外部收起全部
+  document.addEventListener('click', function () {
+    if (event.target.closest('.hc-mega-trigger.hc-mega-flag')) return;
+    document.querySelectorAll('.hc-dropdown').forEach(function (p) { p.style.display = 'none'; p.classList.remove('is-open'); });
+    document.querySelectorAll('.hc-mega-trigger.hc-mega-flag.hc-is-on').forEach(function (m) { m.classList.remove('hc-is-on'); });
+  });
+});
+
+</script>
+<style>
+/* Tab 导航（原 .ant-tabs-nav 样式映射，active 渐变下划线保留） */
+.hc-tabs{position:relative;display:flex;align-items:center;padding-left:20px;border-bottom:.5px solid rgba(56,59,89,.08);margin-bottom:0}
+.hc-tab{position:relative;display:inline-flex;align-items:center;gap:4px;padding:14px 0;margin-right:32px;border:none;background:none;cursor:pointer;font-size:14px;color:#5b6073;font-family:inherit;transition:color .2s}
+.hc-tab:hover{color:#6585fa}
+.hc-tab.is-active{color:#0b0d29;font-weight:500;text-shadow:none}
+.hc-tab-badge{display:inline-flex;align-items:center;justify-content:center;margin-left:4px;padding:0 5px;height:16px;font-size:10px;font-style:normal;border-radius:8px;border:.5px solid #3db0ff;background:linear-gradient(55deg,rgba(74,228,255,.12) -14.12%,rgba(66,130,255,.12) 47.61%,rgba(215,104,255,.12) 105.84%);color:#0062ff}
+.hc-tab-ink{position:absolute;bottom:0;left:20px;height:2px;width:56px;border-radius:2px;background:linear-gradient(90deg,#2971ff .01%,#36bcff 99.99%);transition:left .3s ease,width .3s ease}
+
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+/* Tab 切换：点击切 active + 更新 URL hash（原版 React 状态 → 自己实现） */
+(function(){
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('.hc-tab'));
+  var ink = document.querySelector('.hc-tab-ink');
+  function moveInk(tab){
+    if(!ink || !tab) return;
+    ink.style.left = tab.offsetLeft + 'px';
+    ink.style.width = tab.offsetWidth + 'px';
+  }
+  function select(tab){
+    tabs.forEach(function(t){ t.classList.remove('is-active'); });
+    tab.classList.add('is-active');
+    moveInk(tab);
+    var key = tab.getAttribute('data-hc-tab');
+    if(key) location.hash = '#' + key; // 后续接路由
+  }
+  tabs.forEach(function(tab){
+    tab.addEventListener('click', function(){ select(tab); });
+  });
+  // 初始定位 ink
+  var active = document.querySelector('.hc-tab.is-active');
+  if(active) setTimeout(function(){ moveInk(active); }, 100);
+})();
+
+});
+</script>
+<style>
+/* 语言条（原 .pLdMpdki 内按钮） */
+.hc-langbar{display:flex;align-items:center;gap:8px;padding:0 6px;position:relative}
+.hc-lang-btn{display:inline-flex;align-items:center;gap:4px;border:none;background:transparent;cursor:pointer;font-size:13px;color:#0B0D29;padding:4px 6px;border-radius:6px;font-family:inherit}
+.hc-lang-btn:hover{background:#f2f5ff;color:#6585fa}
+.hc-lang-swap{border:none;background:transparent;cursor:pointer;color:#0B0D29;opacity:.6;padding:4px;border-radius:6px}
+.hc-lang-swap:hover{opacity:1;background:#f2f5ff}
+
+/* 完整语言面板（原 .IcHmn0gj：白底圆角10、阴影、900px、abs top39） */
+.hc-lang-panel{
+  background-color:#fff;border-radius:10px;box-shadow:0 6px 20px rgba(98,107,181,.2);
+  display:none;left:0;padding:20px 10px 20px 20px;position:absolute;top:39px;width:900px;z-index:1000;
+  box-sizing:border-box;
+}
+.hc-lang-panel.is-open{display:block}
+
+/* 快捷中/EN（原 .VAZLwMV3） */
+.hc-lang-shortcuts{position:absolute;right:34px;top:36px;z-index:2}
+.hc-lang-shortcut{border:1px solid #ccc;color:#ccc;cursor:pointer;display:inline-block;font-size:14px;line-height:30px;text-align:center;vertical-align:top;width:50px;position:relative}
+.hc-lang-shortcut:hover .hc-lang-tip{display:block}
+.hc-lang-shortcut.is-on{background-color:#6585fa;border-color:#6585fa;color:#fff}
+.hc-lang-tip{background-color:#e7f1ff;border:1px solid #6585fa;border-radius:3px;color:#4597ff;display:none;font-size:12px;left:0;line-height:20px;position:absolute;top:40px;width:100%;z-index:1}
+.hc-lang-tip:before,.hc-lang-tip:after{border:5px solid transparent;content:"";height:0;position:absolute;width:0}
+.hc-lang-tip:before{border-bottom-color:#6585fa;top:-10px}
+.hc-lang-tip:after{border-bottom-color:#e7f1ff;top:-9px}
+
+/* 快捷语言（原 .ENz4tU2V） */
+.hc-lang-quick{list-style:none;margin:0 0 16px 0;padding:0}
+.hc-lang-quick-item{color:#333;cursor:pointer;display:inline-block;font-size:15px;font-weight:700;line-height:35px;margin-right:47px;position:relative;width:auto}
+.hc-lang-quick-item.is-sel{border-bottom:2px solid #6585fa;color:#6585fa}
+
+/* 搜索（原 .uZbrwF7X：SVG 图标本地化 + 底边框） */
+.hc-lang-search{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='14'%3E%3Ccircle cx='5' cy='5' r='3.5' fill='none' stroke='%23999' stroke-width='1.2'/%3E%3Cpath d='M7.5 7.5L11 11' stroke='%23999' stroke-width='1.2'/%3E%3C/svg%3E");background-position:left 4px;background-repeat:no-repeat;background-size:12px 14px;border-bottom:1px solid #eee;height:36px;margin-bottom:10px;position:relative}
+.hc-lang-search-inner{left:27px;position:absolute;right:0;top:0}
+.hc-lang-search-input{border-style:none;color:#000;display:block;font-size:14px;line-height:22px;outline:none;width:100%;font-family:inherit}
+.hc-lang-search-input::placeholder{color:#ddd}
+
+/* 滚动区（原内联：max-height 372） */
+.hc-lang-scroll-wrap{position:relative;overflow:hidden;width:100%;max-height:372px}
+.hc-lang-scroll{position:relative;overflow-y:auto;overflow-x:hidden;max-height:372px}
+
+/* 字母分组（原 .XnYqTsyD / .lyyq0Nmd） */
+.hc-lang-group{margin-bottom:5px}
+.hc-lang-letter{color:#999;font-size:12px;line-height:1;margin-bottom:3px}
+/* 语言项（原 .XmMCA0XC：140px 多列） */
+.hc-lang-item{align-items:center;color:#333;cursor:pointer;display:inline-flex;font-size:13.5px;line-height:22px;margin-bottom:6px;width:140px;padding:2px 4px;border-radius:5px}
+.hc-lang-item:hover{color:#6585fa;background:#f2f5ff}
+.hc-lang-item.is-sel{color:#6585fa}
+.hc-lang-item.is-hide{display:none}
+.hc-lang-hot{display:inline-block;margin-left:3px;vertical-align:middle;height:13px;line-height:13px;padding:0 4px;font-size:9px;font-style:normal;font-weight:500;color:#fff;border-radius:6px;background:linear-gradient(90deg,#2971ff,#36bcff)}
+
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+/* 语言选择器完整面板逻辑（原 React 行为自实现） */
+(function(){
+  var PANEL = document.getElementById('hc-lang-panel');
+  var GROUPS = [["A",[["阿拉伯语", true], ["爱沙尼亚语", true], ["阿塞拜疆语", false], ["阿尔巴尼亚语", false], ["爱尔兰语", false], ["阿姆哈拉语", false], ["阿萨姆语", false], ["奥里亚语", false], ["阿尔及利亚阿拉伯语", false], ["阿肯语", false], ["阿拉贡语", false], ["阿斯图里亚斯语", false], ["艾马拉语", false], ["奥杰布瓦语", false], ["奥克语", true], ["奥罗莫语", false], ["奥塞梯语", false]]],["B",[["波兰语", true], ["保加利亚语", true], ["波斯语", false], ["白俄罗斯语", false], ["波斯尼亚语", true], ["巴斯克语", false], ["冰岛语", true], ["北索托语", false], ["比斯拉马语", false], ["巴什基尔语", false], ["巴西葡萄牙语", true], ["柏柏尔语", false], ["邦板牙语", false], ["北方萨米语", false], ["本巴语", false], ["比林语", false], ["俾路支语", false], ["博杰普尔语", false], ["布列塔尼语", false]]],["C",[["聪加语", false], ["楚瓦什语", false]]],["D",[["德语", true], ["丹麦语", true], ["迪维希语", false], ["德顿语", false], ["鞑靼语", false], ["低地德语", true]]],["E",[["俄语", true]]],["F",[["法语", true], ["芬兰语", true], ["菲律宾语", true], ["富拉尼语", false], ["法罗语", false], ["梵语", false], ["弗留利语", false]]],["G",[["高棉语", true], ["格鲁吉亚语", false], ["古吉拉特语", false], ["刚果语", false], ["瓜拉尼语", false], ["格陵兰语", false], ["盖尔语", false], ["高地索布语", false], ["古希腊语", false], ["古英语", false]]],["H",[["韩语", true], ["荷兰语", true], ["黑山语", false], ["豪萨语", false], ["海地语", false], ["哈卡钦语", false], ["胡帕语", false]]],["J",[["捷克语", true], ["加泰罗尼亚语", true], ["加利西亚语", true], ["吉尔吉斯语", false], ["加拿大法语", false]]],["K",[["克罗地亚语", true], ["卡纳达语", false], ["科萨语", false], ["科西嘉语", false], ["库尔德语", false], ["孔卡尼语", false], ["克什米尔语", false], ["卡拜尔语", false], ["卡努里语", false], ["卡舒比语", false], ["康瓦尔语", false], ["克里克语", false], ["克里米亚鞑靼语", false], ["克林贡语", false], ["克丘亚语", false]]],["L",[["罗马尼亚语", true], ["老挝语", false], ["拉丁语", false], ["立陶宛语", true], ["拉脱维亚语", true], ["卢森堡语", false], ["林加拉语", false], ["罗曼什语", false], ["拉特加莱语", false], ["林堡语", false], ["卢干达语", false], ["卢森尼亚语", false], ["卢旺达语", false], ["罗姆语", false], ["逻辑语", false]]],["M",[["缅甸语", false], ["马来语", true], ["苗语", false], ["孟加拉语", true], ["马其顿语", false], ["马拉地语", false], ["马拉雅拉姆语", false], ["马耳他语", false], ["毛利语", false], ["马拉加斯语", false], ["迈蒂利语", false], ["马绍尔语", false], ["曼克斯语", false], ["毛里求斯克里奥尔语", false]]],["N",[["挪威语", true], ["尼泊尔语", true], ["南非荷兰语", true], ["南索托语", false], ["南恩德贝莱语", false], ["那不勒斯语", false]]],["P",[["葡萄牙语", true], ["普什图语", false], ["旁遮普语", false], ["帕皮阿门托语", false]]],["Q",[["齐切瓦语", false], ["契维语", false], ["切罗基语", false]]],["R",[["日语", true], ["瑞典语", true]]],["S",[["斯洛文尼亚语", true], ["斯洛伐克语", true], ["塞尔维亚语(拉丁文)", true], ["塞尔维亚语(西里尔文)", false], ["斯瓦希里语", true], ["索马里语", false], ["萨摩亚语", false], ["世界语", true], ["苏格兰语", false], ["萨丁尼亚语", false], ["掸语", false], ["桑海语", false], ["书面挪威语", false], ["宿务语", false]]],["T",[["泰语", true], ["土耳其语", true], ["泰米尔语", false], ["土库曼语", false], ["塔吉克语", false], ["泰卢固语", false], ["他加禄语", false], ["提格利尼亚语", false], ["突尼斯阿拉伯语", false]]],["W",[["乌克兰语", true], ["乌尔都语", false], ["威尔士语", true], ["沃洛夫语", false], ["文达语", false], ["瓦隆语", false]]],["X",[["西班牙语", true], ["匈牙利语", true], ["希腊语", true], ["希伯来语", false], ["信德语", false], ["修纳语", false], ["夏威夷语", false], ["叙利亚语", false], ["巽他语", false], ["西非书面语", false], ["西弗里斯语", false], ["西里西亚语", false], ["希利盖农语", false], ["下索布语", false], ["新挪威语", false]]],["Y",[["英语", true], ["越南语", true], ["意大利语", true], ["印尼语", true], ["印地语", true], ["亚美尼亚语", true], ["约鲁巴语", false], ["伊博语", false], ["意第绪语", false], ["亚齐语", false], ["伊多语", false], ["伊努克提图特语", false], ["因特语", false], ["印古什语", false]]],["Z",[["中文(简体)", true], ["中文(繁体)", true], ["中文(粤语)", true], ["中文(文言文)", false], ["祖鲁语", false], ["爪哇语", false], ["扎扎其语", false], ["中古法语", false]]]]; // [字母, [[语言名,热门],...]]
+
+  function renderGroups(){
+    var c = document.getElementById('hc-lang-groups');
+    GROUPS.forEach(function(g){
+      var gp = document.createElement('div');
+      gp.className = 'hc-lang-group';
+      var lt = document.createElement('p');
+      lt.className = 'hc-lang-letter';
+      lt.textContent = g[0];
+      gp.appendChild(lt);
+      g[1].forEach(function(l){
+        var it = document.createElement('span');
+        it.className = 'hc-lang-item';
+        it.setAttribute('data-name', l[0]);
+        it.textContent = l[0];
+        if (l[1]) { var h = document.createElement('i'); h.className='hc-lang-hot'; h.textContent='AI'; it.appendChild(h); }
+        gp.appendChild(it);
+      });
+      c.appendChild(gp);
+    });
+  }
+
+  function openPanel(anchor){ PANEL.classList.add('is-open'); }
+  function closePanel(){ PANEL.classList.remove('is-open'); }
+
+  // 触发：hover + click（源/目标语言按钮）
+  ['hc-src-lang','hc-dst-lang'].forEach(function(id){
+    var btn = document.getElementById(id);
+    if (!btn) return;
+    btn.addEventListener('mouseenter', openPanel);
+    btn.addEventListener('click', function(e){ e.stopPropagation(); PANEL.classList.toggle('is-open'); });
+  });
+  PANEL.addEventListener('mouseenter', openPanel);
+  PANEL.addEventListener('mouseleave', closePanel);
+  document.addEventListener('click', closePanel);
+
+  // 快捷语言
+  document.querySelectorAll('.hc-lang-quick-item').forEach(function(li){
+    li.addEventListener('click', function(){
+      var name = li.getAttribute('data-quick');
+      if (!name) return;
+      var active = document.querySelector('.hc-lang-btn.is-sel') || document.getElementById('hc-dst-lang');
+      active.querySelector('span').textContent = name;
+      document.querySelectorAll('.hc-lang-quick-item').forEach(function(x){ x.classList.remove('is-sel'); });
+      li.classList.add('is-sel');
+      closePanel();
+    });
+  });
+
+  // 语言项选择
+  var groupsEl = document.getElementById('hc-lang-groups');
+  groupsEl.addEventListener('click', function(e){
+    var it = e.target.closest('.hc-lang-item');
+    if (!it) return;
+    var active = document.getElementById('hc-dst-lang');
+    active.querySelector('span').textContent = it.getAttribute('data-name');
+    document.querySelectorAll('.hc-lang-item').forEach(function(x){ x.classList.remove('is-sel'); });
+    it.classList.add('is-sel');
+    closePanel();
+  });
+
+  // 搜索过滤
+  document.getElementById('hc-lang-search').addEventListener('input', function(){
+    var q = this.value.trim();
+    document.querySelectorAll('#hc-lang-groups .hc-lang-item').forEach(function(it){
+      it.classList.toggle('is-hide', q !== '' && it.getAttribute('data-name').indexOf(q) === -1);
+    });
+    document.querySelectorAll('#hc-lang-groups .hc-lang-group').forEach(function(gp){
+      var vis = Array.from(gp.querySelectorAll('.hc-lang-item')).some(function(x){ return !x.classList.contains('is-hide'); });
+      gp.style.display = vis ? '' : 'none';
+    });
+  });
+
+  // 交换
+  document.getElementById('hc-lang-swap').addEventListener('click', function(){
+    var a = document.getElementById('hc-src-lang'), b = document.getElementById('hc-dst-lang');
+    var ta = a.querySelector('span').textContent, tb = b.querySelector('span').textContent;
+    a.querySelector('span').textContent = tb;
+    b.querySelector('span').textContent = ta;
+  });
+
+  renderGroups();
+})();
+
+});
+</script>
+<style>
+/* 功能按钮行（原 .JjBtRHIL：56px 行 + 胶囊按钮 + AI翻译渐变按钮） */
+.hc-actionbar { height: 56px; justify-content: space-between; padding: 0 15px; position: relative; width: 100%; align-items: center; display: flex; box-sizing: border-box; }
+.hc-actionbar-left { align-items: center; display: flex; flex: 1 1; }
+
+/* 胶囊按钮（原 .uF6adESN/.Cki2LZRI/.EFflylzd 同款） */
+.hc-pill {
+  align-items: center; border: 1px solid #ebedf2; border-radius: 28px;
+  color: rgba(11,13,41,.8); cursor: pointer; display: inline-flex;
+  font-size: 12px; height: 28px; justify-content: center;
+  margin-right: 8px; padding: 0 6px; transition: none !important;
+  user-select: none;
+}
+.hc-pill:hover { background: #f5f7ff; border: 1px solid #d5def8; }
+.hc-pill + .hc-pill { margin-left: 1px; }
+.hc-pill svg { margin-left: 4px; margin-top: -1px; transform: rotate(90deg) scale(.8); }
+
+/* 深度思考激活态（原 .EFflylzd.Tiyz3l0s：渐变描边+渐变文字） */
+.hc-pill-toggleable.is-on { background: #f5f7ff !important; border: 1px solid #d5def8 !important; }
+.hc-pill-toggleable.is-on span {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(54.74deg, #36bcff -7.93%, #065aff 31.05%, #b368ff 75.76%, #ffb168 106.71%);
+  background-clip: text; -webkit-background-clip: text;
+}
+
+/* AI翻译按钮（原 button.Dmn89frm 渐变） */
+.hc-btn-ai {
+  background: linear-gradient(54.14deg, #71ffff -7.65%, #5fbcff 17.38%, #508bff 45.48%, #e186ff 104.74%) !important;
+  border: 0; border-radius: 30px; box-shadow: none; color: #fff !important;
+  cursor: pointer; font-size: 13px; height: 28px;
+  justify-content: center; align-items: center; display: flex;
+  padding: 0 16px; transition: none !important; font-family: inherit;
+}
+.hc-btn-ai:hover { filter: brightness(1.05); }
+
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+/* 功能按钮行交互：深度思考切换激活态；参考知识 hover 提示（原 React 行为 → 自实现） */
+(function(){
+  // 深度思考：点击切换渐变激活态
+  var t = document.querySelector('.hc-pill-toggleable');
+  if (t) t.addEventListener('click', function(){ t.classList.toggle('is-on'); });
+
+  // 参考知识：hover 显示浮层（原 ant-dropdown；静态化后无远端数据，先做空浮层提示）
+  var dz = document.querySelector('[data-hc-dropdown="knowledge"]');
+  if (dz) {
+    var tip = document.createElement('div');
+    tip.style.cssText = 'position:absolute;top:calc(100% + 4px);left:0;background:#fff;border:.5px solid #e8e9eb;border-radius:8px;box-shadow:0 6px 20px rgba(98,107,181,.15);padding:8px 12px;font-size:12px;color:#5b6073;display:none;z-index:50;white-space:nowrap';
+    tip.textContent = '参考知识（已停用，等待接入）';
+    dz.style.position = 'relative';
+    dz.appendChild(tip);
+    dz.addEventListener('mouseenter', function(){ tip.style.display = 'block'; });
+    dz.addEventListener('mouseleave', function(){ tip.style.display = 'none'; });
+  }
+})();
+
+});
+</script>
+<style>
+/* 输入区（原 .DWOp2n2u：flex column 编辑器 + 上传区） */
+.hc-input-area{display:flex;flex-direction:column;height:calc(100% - 100px);overflow-y:auto;padding:0 20px;width:100%;box-sizing:border-box}
+.hc-input-area:not(:hover)::-webkit-scrollbar-thumb{background-color:transparent}
+
+/* 编辑器容器（原 .UKuDZwIM/.pM0l6dGO：24px 大字号） */
+.hc-input-wrap{flex:1 1;height:100%;position:relative;font-size:24px}
+.hc-input-editor{font-size:inherit;height:100%}
+.hc-input-editor span[data-slate-placeholder]{color:#dee0e6;font-size:24px;font-weight:400;opacity:1!important;top:0}
+.hc-input-inner{width:100%;word-break:break-word}
+.hc-input-scroll{height:100%;scrollbar-color:hsla(0,0%,60%,.3) transparent;scrollbar-width:none}
+.hc-input-scroll::-webkit-scrollbar{height:12px;width:12px}
+.hc-input-scroll::-webkit-scrollbar-track{background:transparent}
+.hc-input-scroll::-webkit-scrollbar-thumb{background-clip:padding-box;border:4px solid transparent;border-radius:100px}
+
+/* 编辑器本体（原 .ioHXHxf9：contenteditable，透明底无边框） */
+.hc-input-rich{background-color:transparent;color:#0b0d29;height:100%;line-height:1.7;padding:0;resize:none}
+.hc-input-rich,.hc-input-rich:active,.hc-input-rich:focus,.hc-input-rich:hover{border:none;box-shadow:none;outline:none}
+.hc-input-rich>div+div{margin-top:11px}
+
+/* 底部上传区（原 .rfhEM3lg/.bxgG6w8l/.ou2VT22V） */
+.hc-input-bottom{position:relative}
+.hc-input-bottom-inner{align-items:flex-end;display:inline-flex}
+.hc-input-tools{margin:0 -5px;width:calc(100% + 10px)}
+.hc-upload-shell{padding:0}
+.hc-upload-wrap{max-height:calc(100vh - 367px);overflow:auto;overflow-x:hidden;position:relative;z-index:1}
+
+/* 上传拖拽区（原 ant-upload-drag.CeTAu7wM：透明、无边框、hover 淡蓝） */
+.hc-upload-drag{background-color:transparent;border-style:none;position:relative;cursor:pointer;display:block;width:100%}
+.hc-upload-drag:hover{background:#fcfdff!important}
+.hc-upload-drag:hover .hc-upload-dash{border-color:#dee1e8!important}
+.hc-upload-dash{align-items:center;border:1px dashed #dee1e8;border-radius:8px;display:flex;flex-direction:column;justify-content:center;min-height:115px;text-align:center;transition:border-color .2s}
+
+/* 上传内容（原 .AsgqxnM9/.YL_oHfxX：图标列 + 标题） */
+.hc-upload-center{align-items:center;display:flex;flex-direction:column;justify-content:center}
+.hc-upload-title{color:rgba(0,0,0,.4);font-size:12px;margin-bottom:10px}
+.hc-upload-icons{align-items:center;display:flex;margin-bottom:4px}
+.hc-upload-ic{align-items:center;display:flex;flex-direction:column;justify-content:space-between;margin-right:20px;position:relative}
+.hc-upload-ic:last-child{margin-right:0}
+.hc-upload-ic-box{display:inline-block;line-height:0}
+.hc-upload-btn{display:block;width:100%}
+.hc-upload-btn input[type=file]{display:none}
+
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+/* 输入区交互：点击上传区打开文件选择器；编辑器可输入 */
+(function(){
+  var drag = document.querySelector('.hc-upload-drag');
+  var fileInput = drag && drag.querySelector('input[type=file]');
+  var list = document.querySelector('.hc-upload-list');
+  if (drag && fileInput) {
+    drag.addEventListener('click', function(){ fileInput.click(); });
+    fileInput.addEventListener('change', function(){
+      if (list && this.files && this.files.length) {
+        list.innerHTML = '<div style="font-size:12px;color:rgba(0,0,0,.4);padding-top:4px">' +
+          Array.from(this.files).map(f => f.name).join('、') + '</div>';
+      }
+    });
+  }
+  // 编辑器自动聚焦（原 React 默认）
+  var rich = document.querySelector('.hc-input-rich');
+  if (rich) rich.focus();
+})();
+(function(){
+  var rich = document.querySelector('.hc-input-rich');
+  var ph = rich && rich.querySelector('[data-slate-placeholder]');
+  function sync(){ if (rich && ph) ph.style.display = rich.innerText.replace(/\uFEFF/g,'').trim() ? 'none' : ''; }
+  if (rich) { rich.addEventListener('input', sync); rich.addEventListener('keyup', sync); sync(); }
+})();
+
+});
+</script>
+<style>
+/* 划译结果浮窗（原 .FfEykO6W/.DNZuKrBB/.EEanPivM/.a0d0lr0p/.ljN5gzsm） */
+.hc-result-popup{position:fixed;width:300px;z-index:999}
+.hc-result-hidden{visibility:hidden;z-index:-1}
+.hc-result-card{background-color:#f5f7ff;border-radius:20px;box-shadow:0 10px 20px rgba(0,0,0,.15);margin-top:-19px;padding:15px}
+.hc-result-row{align-items:center;display:flex;font-size:13px;justify-content:space-between;line-height:18px;margin-top:13px}
+.hc-result-title{color:#000;align-items:center;display:flex;position:relative}
+.hc-result-eye{align-items:center;cursor:pointer;display:flex;height:20px;margin-left:7px;margin-top:7px;position:relative;vertical-align:top}
+.hc-result-eye svg{transform:scale(1.2)}
+
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+/* 划译浮窗：选中文本后显示（模拟原版划词翻译入口） */
+(function(){
+  var pop = document.querySelector('.hc-result-popup');
+  if (!pop) return;
+  var show = function(x, y){
+    pop.classList.remove('hc-result-hidden');
+    var w = pop.offsetWidth || 300;
+    var nx = Math.min(x, window.innerWidth - w - 8);
+    var ny = Math.min(y, window.innerHeight - 60);
+    pop.style.left = nx + 'px';
+    pop.style.top = ny + 'px';
+  };
+  var hide = function(){ pop.classList.add('hc-result-hidden'); };
+  document.addEventListener('mouseup', function(){
+    var sel = window.getSelection().toString().trim();
+    if (sel) show(window.innerWidth - 320, window.innerHeight - 80);
+    else setTimeout(hide, 200);
+  });
+  pop.addEventListener('click', hide);
+})();
+
+});
+</script>
+<style>
+/* AI大模型选择器（原 .b15UFYYv sticky 条 + .VT2uj18x/.MRRjiaug 渐变文字） */
+.hc-model-selector{align-items:center;background:#fff;display:flex;padding:9px 20px 0;position:sticky;top:50px;z-index:40}
+.hc-model-box{align-items:center;cursor:pointer;display:flex;font-size:13px!important;padding-left:0!important;color:#0b0d29!important}
+.hc-model-item{-webkit-text-fill-color:transparent;background:linear-gradient(76.73deg,#36bcff .71%,#065aff 37.81%,#b368ff 80.36%,#ffb168 109.82%);background-clip:text;-webkit-background-clip:text;margin-right:18px;padding-right:0!important;font-size:13px}
+.hc-model-arrow{height:12px;width:12px;color:#0b0d29}
+
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+/* 模型选择器：点击弹出模型菜单（原 ant-select 下拉） */
+(function(){
+  var box = document.querySelector('.hc-model-box');
+  if (!box) return;
+  var menu = document.createElement('div');
+  menu.style.cssText = 'position:absolute;top:100%;left:20px;background:#fff;border:.5px solid #e8e9eb;border-radius:8px;box-shadow:0 10px 20px rgba(169,173,204,.3);padding:6px;z-index:99;display:none;min-width:140px;font-size:13px';
+  menu.innerHTML = '<div style="padding:6px 10px;cursor:pointer;color:#0b0d29" data-m="AI大模型翻译">AI大模型翻译</div>' +
+                   '<div style="padding:6px 10px;cursor:pointer;color:#0b0d29" data-m="通用翻译">通用翻译</div>' +
+                   '<div style="padding:6px 10px;cursor:pointer;color:#0b0d29" data-m="神经网络翻译">神经网络翻译</div>';
+  box.parentElement.style.position = 'relative';
+  box.parentElement.appendChild(menu);
+  box.addEventListener('click', function(e){
+    e.stopPropagation();
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+  });
+  menu.querySelectorAll('[data-m]').forEach(function(m){
+    m.addEventListener('click', function(){
+      box.querySelector('.hc-model-item').textContent = m.getAttribute('data-m');
+      menu.style.display = 'none';
+    });
+  });
+  document.addEventListener('click', function(){ menu.style.display = 'none'; });
+})();
+
+});
+</script>
+<style>
+/* 侧栏广告（原 .Hu5qsRSB/.Wl_WK9Q1/.uJmljXQ8：白卡圆角 + CDN 背景图） */
+.hc-side-ads{height:144px;margin-top:18px;align-items:center;display:flex;justify-content:space-between}
+.hc-ads-row{background:#fff;border-radius:10px;box-shadow:0 2px 8px 0 rgba(96,114,252,.05);flex:1 1;height:100%;margin:0;padding:12px;align-items:center;display:flex;justify-content:space-between;list-style:none}
+.hc-ads-row + .hc-ads-row{margin-left:12px}
+.hc-ads-row li{border-radius:8px;cursor:pointer;height:120px;position:relative;text-align:center;width:100%;background:url(https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/bg.ea77cf4b.png);background-size:cover;list-style:none}
+.hc-ads-row li+li{margin-left:12px}
+.hc-ads-row li:hover .hc-ads-txt strong:after{display:inline-block}
+.hc-ads-row-dl li{align-items:flex-end;display:inline-flex;background:linear-gradient(180deg,#e6f2ff,#f5f7ff)}
+.hc-ads-row-dl li:after{background:linear-gradient(174.86deg,rgba(245,247,255,0) 4.13%,#f5f7ff 68.59%);bottom:0;content:"";display:inline-block;height:32px;position:absolute;right:0;width:100%}
+
+/* 图标区（原 .KwiYcsEJ/.bMgvoNX8/.e0Li2KTn/.vkwOAF8f：CDN 2x 图） */
+.hc-ads-pic{background-image:-webkit-image-set(url(https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/lf_01.89a68ceb.png) 2x);background-position:100% 100%;background-repeat:no-repeat;background-size:contain;height:100%}
+.hc-ads-pic-edit{background-image:-webkit-image-set(url(https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/lf_02.1dc6d863.png) 2x)}
+.hc-ads-pic-pc{background-image:-webkit-image-set(url(https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/rt_07.b000e2c9.png) 2x);background-position:right 3px bottom 13px;background-size:112px 79.7px;width:100%}
+.hc-ads-pic-app{background-image:-webkit-image-set(url(https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/rt_06.1d6e4947.png) 2x);background-position:right 7px bottom 0;background-size:98px 97px;max-height:100px;width:100%}
+
+/* 文本区（原 .wGRatXfj） */
+.hc-ads-txt{align-items:flex-start;display:flex;flex-direction:column;font-size:13px;left:15px;line-height:18px;position:absolute;top:15px;white-space:nowrap}
+.hc-ads-txt strong{color:rgba(11,13,41,.8);font-weight:400}
+.hc-ads-txt strong:after{background:url(https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/arrow.1123ab09.svg) no-repeat 50%;background-size:contain;content:"";display:none;height:8px;margin-left:2px;vertical-align:0;width:5px}
+.hc-ads-txt span{color:#afb2cf;margin-top:4px;text-align:left}
+.hc-ads-row-dl .hc-ads-txt strong{margin-bottom:5px}
+.hc-ads-row-dl .hc-ads-txt span{align-items:center;display:flex;font-size:12px;margin:0}
+.hc-ads-row-dl .hc-ads-txt span:before{background:#afb2cf;border-radius:50%;content:"";display:inline-block;height:3px;margin-right:4px;width:3px}
+
+/* 下载按钮（原 .yIBiqjwT 渐变胶囊） */
+.hc-ads-dl-btn{align-items:center;background:linear-gradient(100.67deg,rgba(125,165,255,.95) .67%,#6978ff 64.63%);border:.81px solid rgba(216,228,255,.4);border-radius:40px;bottom:8px;box-shadow:0 8.05px 9.39px 0 rgba(180,197,242,.66);color:#fff;display:flex;font-size:12px;height:25px;justify-content:center;position:absolute;right:8px;width:44px;z-index:2}
+.hc-ads-dl-btn:hover{background:linear-gradient(100.67deg,rgba(125,165,255,.665) .67%,rgba(105,120,255,.7) 64.63%)}
+
+</style>
+<style>
+/* 右侧栏（原 .qphmPPyw：白卡圆角 sticky；历史/智能参考/CoPilot 三面板） */
+.hc-right-panel{background:#fff;border-radius:10px;bottom:0;box-shadow:0 2px 8px 0 rgba(96,114,252,.05);display:flex;flex-direction:row;height:calc(100% - 20px);margin-left:20px;overflow:hidden;position:sticky;right:20px;top:0}
+.hc-right-pane-outer{border-right:1px solid rgba(209,215,230,.2);height:100%!important;overflow:hidden;z-index:2;box-sizing:border-box}
+.hc-rp-history,.hc-rp-ref{display:flex;flex-direction:column;height:100%;padding:0 0 20px}
+.hc-rp-head{border-bottom:1px solid rgba(209,215,230,.39);color:#0b0d29;font-size:14px;font-weight:500;height:50px;line-height:50px;padding-left:16px}
+.hc-rp-body{flex:1 1;padding-top:12px}
+.hc-rp-types{display:flex;margin-bottom:10px;padding-left:16px}
+.hc-rp-type{align-items:center;border:1px solid rgba(209,215,230,.3);border-radius:8px;color:rgba(11,13,41,.6);cursor:pointer;display:flex;font-size:13px;height:32px;justify-content:center;margin-right:8px;min-width:58px;padding:0 10px}
+.hc-rp-type:hover,.hc-rp-type.is-sel{color:#0b0d29;border-color:#7890ff}
+.hc-rp-tip{align-items:center;background:#f5f7ff;border-radius:6px;color:rgba(11,13,41,.4);display:flex;font-size:12px;font-weight:400;height:22px;justify-content:space-between;margin:0 15px 6px;padding:1px 10px}
+.hc-rp-clear{align-items:center;color:#447fff;cursor:pointer;display:flex;font-size:12px;justify-content:center;margin-left:12px}
+.hc-rp-login{align-items:center;display:flex;flex-direction:column;font-size:12px;padding:10px 20px 0}
+.hc-rp-login-txt{color:#999}
+.hc-rp-login-btn{color:#4d85ff;margin-top:4px;cursor:pointer}
+
+/* 智能参考 */
+.hc-rp-ref-body{height:calc(100% - 50px);overflow-y:auto;width:100%}
+.hc-rp-ref-card{background-size:15px;background:linear-gradient(84.21deg,#f5faff -10.99%,#f4f6ff 46.87%,#faf8ff 104.86%);border-radius:10px;margin:10px;padding:18px}
+.hc-rp-ref-title{color:#000;font-size:14px;font-weight:500;line-height:28px;padding-left:5px}
+.hc-rp-ref-sub{color:#bdbdbd;font-size:12px;line-height:16px;margin-top:10px}
+.hc-rp-ref-empty{margin-top:5px}
+
+/* CoPilot 助手 */
+.hc-rp-copilot{display:flex;flex-direction:column;height:100%;min-width:280px;padding-bottom:15px;position:relative}
+.hc-rp-copilot-head{align-items:center;border-bottom:1px solid rgba(209,215,230,.39);display:flex;height:50px;justify-content:space-between;padding:0 15px;position:relative}
+.hc-rp-copilot-logo{background-image:url(https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/icon-logo.a24a5159.svg);background-position:50%;background-repeat:no-repeat;background-size:cover;height:15.5px;position:relative;top:-.7px;width:42px}
+.hc-rp-copilot-body{flex:1 1;overflow-x:hidden;overflow-y:overlay;padding:0 15px 30px;scrollbar-color:hsla(0,0%,60%,.3) transparent;scrollbar-width:none}
+.hc-rp-copilot-msg{align-items:baseline;display:flex}
+.hc-rp-copilot-bubble{align-items:baseline;display:flex;font-size:13px;line-height:1.7;color:rgba(11,13,41,.8)}
+.hc-rp-copilot-bubble img{margin-right:6px;vertical-align:middle;flex-shrink:0}
+.hc-rp-copilot-login{color:#999;font-size:12px;text-align:center;padding-top:10px}
+.hc-rp-copilot-login span{color:#4d85ff;cursor:pointer;margin-left:4px}
+
+/* 右侧条（原 .fYmMHp6G：flex column，tab 顶 fab 底，中间留白） */
+.hc-right-side{align-items:center;display:flex;flex-direction:column;height:100%;justify-content:space-between;flex-shrink:0;padding-top:12px;padding-bottom:12px;box-sizing:border-box}
+
+</style>
+</head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root" style="background-color: rgb(244, 246, 255); min-width: 1316px;"><div class="OMYThApS Y6xXFoEy"><div class=""><header class="hc-nav">
+  <div class="hc-nav-inner">
+
+    <!-- Logo（原 a.C4MLwUQU） -->
+    <a class="hc-logo" href="/mtpe-individual/transText" title="翻译">
+      <img src="/assets/img/static/cat/asset/logo.b10defd4.png" alt="翻译">
+    </a>
+
+    <!-- 菜单（原 .e4XiihS8） -->
+    <nav class="hc-menu">
+
+      <!-- 在线翻译（原 .rInWakhG > span.yl6qkBDk） -->
+      <div class="hc-menu-item">
+        <span class="hc-link is-active" data-url="/mtpe-individual/transText">在线翻译</span>
+      </div>
+
+      <!-- 我的文件（原 .rInWakhG > span 无类） -->
+      <div class="hc-menu-item">
+        <span class="hc-link" data-url="/my-files">我的文件</span>
+      </div>
+
+      <!-- 我的知识（原 span.n2olzUvj + 下拉 .FYlzswNM） -->
+      <div class="hc-menu-item hc-has-dropdown">
+        <span class="hc-link hc-has-arrow" data-url="/my-knowledge">我的知识</span>
+        <div class="hc-dropdown">
+          <span class="hc-dropdown-item" data-url="/terms">术语库</span>
+          <span class="hc-dropdown-item" data-url="/memory">记忆库</span>
+          <span class="hc-dropdown-item" data-url="/kb">知识库</span>
+        </div>
+      </div>
+
+      <!-- 文档工具（原 span.n2olzUvj + 下拉 .FYlzswNM） -->
+      <div class="hc-menu-item hc-has-dropdown">
+        <span class="hc-link hc-has-arrow" data-url="/doc-tools">文档工具</span>
+        <div class="hc-dropdown">
+          <span class="hc-dropdown-item" data-url="/pdf2word">PDF转Word</span>
+          <span class="hc-dropdown-item" data-url="/pdf2ppt">PDF转PPT</span>
+          <span class="hc-dropdown-item" data-url="/pdf-split">PDF拆分</span>
+          <span class="hc-dropdown-item" data-url="/term-extract">术语提取</span>
+        </div>
+      </div>
+
+      <!-- AI+人工翻译（原 .rInWakhG > span 无类） -->
+      <div class="hc-menu-item">
+        <span class="hc-link" data-url="/ai-human">AI+人工翻译</span>
+      </div>
+
+      <span class="hc-sep hc-sep-w389"></span>
+
+      <div class="hc-menu-item"><span class="hc-menu-link">桌面端<span class="hc-badge"><span>AI同传</span></span><div class="hc-desk-preview"></div></span></div>
+
+      <span class="hc-sep hc-sep-w0"></span>
+
+      <!-- 翻译API（原 .rInWakhG > span 无类） -->
+<div class="hc-menu-item"><span class="">翻译API</span></div>
+
+      <span class="hc-sep hc-sep-w0"></span>
+
+      <!-- 全部产品（原 .zcJcUwgF > .ycpbKRSB + .jHxWYvNj mega） -->
+<div class="hc-menu-item"><div class="hc-mega-trigger hc-mega-flag"><div class="hc-mega-caption"><span>全部产品</span><div><div class="hc-mega"><div class="hc-mega-inner"><div class="hc-mega-col"><div class="hc-mega-group"><strong>在线翻译</strong><span>百度翻译PC网页版</span><span>百度翻译桌面端</span><span>百度翻译APP</span></div><div class="hc-mega-group"><strong>智能翻译<i></i></strong><span>智能翻译<span>企业版</span></span><span>智能翻译产品介绍</span></div><div class="hc-mega-group"><strong>私有化</strong><span>智能翻译平台</span></div></div><div class="hc-mega-col"><div class="hc-mega-group"><strong>翻译API</strong><span>百度翻译开放平台<span>公有云</span></span></div><div class="hc-mega-group"><strong>人工翻译</strong><span>AI+人工翻译</span><span>日常快译</span><span>专业翻译</span><span>英文母语润色</span></div><div class="hc-mega-group hc-mega-go"><strong>前往百度翻译官网<img src="https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/icon_to_page.34c93e62.png" class="hc-mega-go-icon"></strong></div></div></div></div></div></div></div></div>
+
+    </nav>
+
+  </div>
+
+  <!-- 用户区（原版结构：nav 直接子，与 .vuaaLCO7 平级：.GvLY4Z0i 会员 / .C2rushz9 企业版 / .MlZ3VoUL 登录） -->
+  <div class="hc-user">
+    <span class="hc-vip" data-url="/vip"><i>开通会员</i></span>
+    <span class="hc-ent" data-url="/enterprise"><i>企业版</i></span>
+    <div class="hc-login"><span class="hc-login-link" data-url="/login">登录</span></div>
+  </div>
+</header></div><div class="page-content new-page-content"><div class="OP1PAOjk" id="multiContainer"><div class="ZhDN2yBJ" id="multiContent"><div class="eyQHxSH6" style="min-height: 690px; max-height: 840px;"><div class="DLUyugHN"><div class="yA48tp_a huWexV6u"><div class="ant-tabs ant-tabs-top ODs2PAqT"><!-- Tab 导航（原 .ant-tabs-nav：结构/属性/ink-bar/more 忠实还原，类名语义化） -->
+<nav class="hc-tabs" role="tablist">
+  <div class="hc-tabs-wrap">
+    <div class="hc-tabs-list">
+      <div class="hc-tab is-active" data-node-key="1">
+        <div role="tab" aria-selected="true" tabindex="0" class="hc-tab-btn">文本翻译</div>
+      </div>
+      <div class="hc-tab" data-node-key="3">
+        <div role="tab" aria-selected="false" tabindex="0" class="hc-tab-btn">文档翻译</div>
+      </div>
+      <div class="hc-tab" data-node-key="2">
+        <div role="tab" aria-selected="false" tabindex="0" class="hc-tab-btn">图片翻译</div>
+      </div>
+      <div class="hc-tab" data-node-key="7">
+        <div role="tab" aria-selected="false" tabindex="0" class="hc-tab-btn">音视频转写翻译</div>
+      </div>
+      <div class="hc-tab" data-node-key="8">
+        <div role="tab" aria-selected="false" tabindex="0" class="hc-tab-btn">
+          <div class="hc-tab-new-wrap">研读创作<span class="hc-tab-new"><i>NEW</i></span></div>
+        </div>
+      </div>
+      <!-- 渐变指示条（原 .ant-tabs-ink-bar） -->
+      <div class="hc-tabs-ink" aria-hidden="true"></div>
+    </div>
+  </div>
+  <!-- more 下拉按钮（原 .ant-tabs-nav-operations，隐藏态保留结构） -->
+  <div class="hc-tabs-more" aria-hidden="true">
+    <button type="button" class="hc-tabs-more-btn" tabindex="-1" aria-haspopup="listbox" aria-expanded="false" style="visibility: hidden;">
+      <svg viewBox="64 64 896 896" focusable="false" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z"></path></svg>
+    </button>
+  </div>
+</nav>
+<div class="ant-tabs-content-holder"><div class="ant-tabs-content ant-tabs-content-top"><div role="tabpanel" tabindex="0" aria-hidden="false" class="ant-tabs-tabpane ant-tabs-tabpane-active" id="rc-tabs-0-panel-1" aria-labelledby="rc-tabs-0-tab-1"></div></div></div></div><div class="operation-pos-new"><div class="text-content" style="width: max-content;"><div class="text">还在手写会议纪要？录音一键转文字</div></div><img class="chicken-img" src="assets/img/static/cat/asset/chicken.b165d8c9.png"></div></div><div class="WUUMhsBs" id="editor-text"><div class="JQvB9PmQ"><div class="Ku91ofAV"><div class="JTwpduw8 xb1ZoOTi"><!-- 语言选择器 + 完整面板（原 .pLdMpdki×2 语言条 + .IcHmn0gj 面板：快捷中EN/快捷语言/搜索/A-Z分组） -->
+<div class="hc-langbar">
+  <button type="button" class="hc-lang-btn" data-hc-lang="auto" id="hc-src-lang">
+    <span>自动检测</span>
+    <svg width="13" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.016 4.5l-3 3-3-3" stroke="currentColor" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <button type="button" class="hc-lang-swap" id="hc-lang-swap" title="交换语言">
+    <svg width="10" height="10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.474 4.057h9.052a.475.475 0 00.427-.678.472.472 0 00-.133-.165.475.475 0 00-.1-.095L6.337.753a.475.475 0 00-.673.64.473.473 0 00.128.133L8.06 3.112H.474A.475.475 0 000 3.584a.472.472 0 00.474.473zm9.052 1.886H.474A.475.475 0 000 6.416a.47.47 0 00.18.37.473.473 0 00.1.095l3.382 2.366a.474.474 0 00.74-.468.472.472 0 00-.195-.305L1.94 6.888h7.585A.475.475 0 0010 6.416a.472.472 0 00-.474-.473z" fill="currentColor"/></svg>
+  </button>
+  <button type="button" class="hc-lang-btn" data-hc-lang="zh" id="hc-dst-lang">
+    <span>中文(简体)</span>
+    <svg width="13" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.016 4.5l-3 3-3-3" stroke="currentColor" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <!-- 完整语言面板（原 .IcHmn0gj：900px，快捷中EN + 快捷语言 + 搜索 + A-Z 22组） -->
+  <div class="hc-lang-panel" id="hc-lang-panel">
+    <!-- 快捷中/EN（原 .VAZLwMV3） -->
+    <div class="hc-lang-shortcuts">
+      <span class="hc-lang-shortcut is-on" data-lang="zh">中<div class="hc-lang-tip">切换中文语种</div></span>
+      <span class="hc-lang-shortcut" data-lang="en">EN<div class="hc-lang-tip">切换英文语种</div></span>
+    </div>
+    <!-- 快捷语言（原 .ENz4tU2V） -->
+    <ol class="hc-lang-quick">
+      <li class="hc-lang-quick-item is-sel" data-quick="自动检测">自动检测</li>
+      <li class="hc-lang-quick-item" data-quick="中文(简体)">中文(简体)</li>
+      <li class="hc-lang-quick-item" data-quick="英语">英语</li>
+      <li class="hc-lang-quick-item" data-quick=""></li>
+    </ol>
+    <!-- 搜索（原 .uZbrwF7X） -->
+    <div class="hc-lang-search">
+      <div class="hc-lang-search-inner">
+        <input type="text" placeholder="搜索语言" class="hc-lang-search-input" id="hc-lang-search">
+      </div>
+    </div>
+    <!-- A-Z 分组滚动区 -->
+    <div class="hc-lang-scroll-wrap">
+      <div class="hc-lang-scroll" id="hc-lang-groups"></div>
+    </div>
+  </div>
+</div>
+<svg width="10" height="10" fill="none" xmlns="http://www.w3.org/2000/svg" class="jCRXYmF4"><path d="M.474 4.057h9.052a.475.475 0 00.427-.678.472.472 0 00-.133-.165.475.475 0 00-.1-.095L6.337.753a.475.475 0 00-.673.64.473.473 0 00.128.133L8.06 3.112H.474A.475.475 0 000 3.584a.472.472 0 00.474.473zm9.052 1.886H.474A.475.475 0 000 6.416a.47.47 0 00.18.37.473.473 0 00.1.095l3.382 2.366a.474.474 0 00.74-.468.472.472 0 00-.195-.305L1.94 6.888h7.585A.475.475 0 0010 6.416a.472.472 0 00-.474-.473z" fill="currentColor"></path></svg><div class="pLdMpdki"><div class="jAw62VN9"><div class="pQHR0aqn" style="padding: 0px 6px;"><span>中文(简体)</span><svg width="13" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.016 4.5l-3 3-3-3" stroke="#0B0D29" stroke-opacity="0.6" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"></path></svg></div></div></div></div></div><!-- 输入区（原 .DWOp2n2u：Slate 编辑器 + 上传图片/文档区，SVG 原样保留） -->
+<div class="hc-input-area scroll-y"><div class="hc-input-wrap" style="font-size: 24px;"><div class="hc-input-editor hc-input-inner"><div class="hc-input-scroll"><div role="textbox" aria-multiline="true" class="hc-input-rich" spellcheck="false" data-slate-editor="true" data-slate-node="value" contenteditable="true" zindex="-1" style="position: relative; outline: none; white-space: pre-wrap; overflow-wrap: break-word; min-height: 41px;"><div data-slate-node="element" style="position: relative;"><span data-slate-node="text"><span data-slate-leaf="true" style="padding: 5px 0px;"><span data-slate-placeholder="true" contenteditable="false" style="position: absolute; pointer-events: none; width: 100%; max-width: 100%; display: block; opacity: 0.333; user-select: none; text-decoration: none;">请输入文本</span><span data-slate-zero-width="n" data-slate-length="0">﻿<br></span></span></span></div></div></div></div></div><div class="hc-input-bottom hc-input-bottom-inner"><div class="hc-input-tools"><div class="hc-upload-shell"><div class="hc-upload-wrap"><div style="position: relative;"><span><div class="hc-upload-drag hc-upload-drag"><span tabindex="0" class="hc-upload-btn" role="button"><input type="file" accept=".doc,.docx,.pdf,.xls,.xlsx,.ppt,.pptx,.txt,.wps,.png,.jpg,.tif,.bmp,.jpeg,.mp4,.mov,.mp3,.wav" style="display: none;"><div class="hc-upload-container"><div class="hc-upload-dash"><div class="hc-upload-center"><div class="hc-upload-title">上传图片/文档</div><div class="hc-upload-icons"><span class="hc-upload-ic"><span class="hc-upload-ic-box"><svg width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.8"><path d="M3.422 4.687a3 3 0 013-3h8.576a4 4 0 013.233 1.644l3.579 4.91a4 4 0 01.768 2.356V21a3 3 0 01-3 3H6.421a3 3 0 01-3-3V4.687z" fill="#F4F4FF"></path><path d="M6.422 2.187h8.576a3.5 3.5 0 012.7 1.274l.128.165 3.58 4.909c.436.599.671 1.322.671 2.063V21a2.5 2.5 0 01-2.5 2.5H6.422a2.5 2.5 0 01-2.5-2.5V4.687a2.5 2.5 0 012.5-2.5z" stroke="#B4C6FF" stroke-opacity="0.5"></path></g><path d="M14.827 11.308c.12.015.237.05.346.104l.105.059c.103.064.194.146.27.24l2.9 3.562h0c.597.731.073 1.825-.868 1.825H8.62a1.118 1.118 0 01-.955-1.701l1.272-2.084v0l.07-.102a1.12 1.12 0 01.727-.423l.122-.01c.124-.005.247.012.366.048l.115.043c.113.049.218.116.31.2l.984.896h0l.04.024.048.007.046-.012.037-.027h0l2.044-2.286.085-.086c.09-.081.193-.147.304-.195l.114-.042a1.12 1.12 0 01.357-.05l.121.01z" stroke="#9CA4DC"></path><path d="M9 10.09a1 1 0 001.002 1 1.002 1.002 0 001.001-1 .999.999 0 00-1.001-1 1.002 1.002 0 00-1.002 1z" fill="#9CA4DC"></path></svg></span></span><span class="hc-upload-ic"><span class="hc-upload-ic-box"><svg width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.8"><path d="M3.422 4.844a3 3 0 013-3h8.576a4 4 0 013.233 1.643l3.579 4.91a4 4 0 01.768 2.357v10.402a3 3 0 01-3 3H6.421a3 3 0 01-3-3V4.844z" fill="#FDF7F7"></path><path d="M6.422 2.344h8.576a3.5 3.5 0 012.7 1.273l.128.165 3.58 4.91c.436.598.671 1.32.671 2.062v10.402a2.5 2.5 0 01-2.5 2.5H6.422a2.5 2.5 0 01-2.5-2.5V4.844a2.5 2.5 0 012.5-2.5z" stroke="#EAC0C0" stroke-opacity="0.5"></path></g><path opacity="0.9" d="M16.791 15.863a3.731 3.731 0 01-2.156-.868c-1.195.26-2.331.637-3.468 1.1C10.264 17.688 9.42 18.5 8.69 18.5c-.145 0-.32-.029-.437-.116a.853.853 0 01-.495-.782c0-.26.058-.985 2.826-2.172a20.548 20.548 0 001.545-3.592c-.35-.695-1.107-2.404-.583-3.273.175-.318.525-.492.903-.463.292 0 .583.145.758.376.379.522.35 1.622-.146 3.244a8.744 8.744 0 001.807 2.318c.612-.116 1.224-.203 1.836-.203 1.37.029 1.573.666 1.544 1.043 0 .984-.961.984-1.457.984zM8.632 17.66l.087-.029c.408-.145.729-.434.962-.81a2.3 2.3 0 00-1.049.84zm3.876-8.69h-.088c-.029 0-.087 0-.116.03-.117.492-.03 1.013.175 1.477a2.42 2.42 0 00.029-1.506zm.204 4.2l-.03.059-.029-.03a23.857 23.857 0 01-.874 1.97l.058-.029v.058c.642-.231 1.34-.434 1.982-.58l-.03-.028h.088a8.892 8.892 0 01-1.165-1.42zm3.963 1.536c-.262 0-.496 0-.758.058.292.145.583.203.874.232.204.028.408 0 .583-.058 0-.087-.116-.232-.7-.232z" fill="#E9A4A7"></path></svg></span></span><span class="hc-upload-ic"><span class="hc-upload-ic-box"><svg width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.8"><path d="M3.422 4.844a3 3 0 013-3h8.576a4 4 0 013.233 1.643l3.579 4.91a4 4 0 01.768 2.356v10.403a3 3 0 01-3 3H6.421a3 3 0 01-3-3V4.844z" fill="#F7F8FF"></path><path d="M6.422 2.344h8.576a3.5 3.5 0 012.7 1.273l.128.165 3.58 4.91c.436.598.671 1.32.671 2.062v10.402a2.5 2.5 0 01-2.5 2.5H6.422a2.5 2.5 0 01-2.5-2.5V4.844a2.5 2.5 0 012.5-2.5z" stroke="#BED9FD" stroke-opacity="0.5"></path></g><path opacity="0.9" d="M16.308 17.572c.41.432 1.153.153 1.152-.432l-.017-6.076a.665.665 0 00-.665-.663.66.66 0 00-.66.663l.011 4.423-2.643-2.79a.678.678 0 00-.98 0l-2.627 2.79-.012-4.423a.665.665 0 00-.665-.663.66.66 0 00-.661.663l.016 6.076c.002.585.747.864 1.154.432L13 14.079l3.307 3.493z" fill="#84B0E1"></path></svg></span></span><span class="hc-upload-ic"><span class="hc-upload-ic-box"><svg width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.8"><path d="M3.422 4.844a3 3 0 013-3h8.576a4 4 0 013.233 1.643l3.579 4.91a4 4 0 01.768 2.356v10.403a3 3 0 01-3 3H6.421a3 3 0 01-3-3V4.844z" fill="#F8F6FF"></path><path d="M6.422 2.344h8.576a3.5 3.5 0 012.7 1.273l.128.165 3.58 4.91c.436.598.671 1.32.671 2.062v10.402a2.5 2.5 0 01-2.5 2.5H6.422a2.5 2.5 0 01-2.5-2.5V4.844a2.5 2.5 0 012.5-2.5z" stroke="#D6CFFA" stroke-opacity="0.5"></path></g><path d="M14.67 9.687a2.52 2.52 0 012.52 2.505 2.493 2.493 0 01-2.497 2.504h-4.094l.01 2.368a.713.713 0 01-.713.718.72.72 0 01-.719-.718l-.01-2.368h-.004l-.019-4.228a.777.777 0 01.778-.78h4.749zm-4.078 3.578h4.095c.593 0 1.073-.48 1.07-1.073a1.08 1.08 0 00-1.08-1.074h-4.094l.01 2.147z" fill="#B9A4D7" opacity="0.9"></path></svg></span></span><span class="hc-upload-ic"><span class="hc-upload-ic-box"><svg width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.8"><path d="M3.422 4.844a3 3 0 013-3h8.576a4 4 0 013.233 1.643l3.579 4.91a4 4 0 01.768 2.356v10.403a3 3 0 01-3 3H6.421a3 3 0 01-3-3V4.844z" fill="#F7FDFF"></path><path d="M6.422 2.344h8.576a3.5 3.5 0 012.7 1.273l.128.165 3.58 4.91c.436.598.671 1.32.671 2.062v10.402a2.5 2.5 0 01-2.5 2.5H6.422a2.5 2.5 0 01-2.5-2.5V4.844a2.5 2.5 0 012.5-2.5z" stroke="#C4E6F6" stroke-opacity="0.5"></path></g><path opacity="0.9" d="M17.613 10.505a.785.785 0 00-.786-.79H9.211a.793.793 0 00-.793.79.785.785 0 00.786.789h3.029l-.027 6.134c-.002.436.35.79.786.79a.794.794 0 00.794-.79l.027-6.134h3.007c.436 0 .79-.354.793-.79z" fill="#9ACDE5"></path></svg></span></span><span class="hc-upload-ic"><span class="hc-upload-ic-box"><svg width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.8"><path d="M3.422 4.798a2.955 2.955 0 012.954-2.954h9.154c.944 0 1.831.45 2.388 1.214l4.092 5.614c.369.506.567 1.115.567 1.74v10.79a2.955 2.955 0 01-2.954 2.954H6.376a2.955 2.955 0 01-2.954-2.954V4.798z" fill="#F6F6FF"></path><path d="M6.376 2.344h9.154c.784 0 1.522.375 1.984 1.009l4.092 5.614c.307.42.471.926.471 1.446v10.79a2.454 2.454 0 01-2.454 2.453H6.376a2.454 2.454 0 01-2.454-2.454V4.798a2.455 2.455 0 012.454-2.454z" stroke="url(#icon-video_svg__paint0_linear_33289_10850)" stroke-opacity="0.5"></path></g><path d="M10.997 8.235c.118 0 .258.03.392.071.135.042.27.097.38.154l.009.005-.056.084.056-.083 4.875 3.213.002.002c.66.455.885 1.364.447 2.054l.001.001a1.04 1.04 0 01-.186.28c-.074.076-.16.134-.268.19l-4.87 3.32c-.675.463-1.566.226-2.008-.458l-.006-.01c-.106-.22-.217-.558-.217-.795V9.727c0-.802.664-1.492 1.449-1.492zm0 1.378c-.088 0-.136.022-.162.05-.028.028-.05.08-.05.172v6.703c.041.035.091.07.14.087.065.022.093.01.104-.002l.006-.007.009-.006 4.971-3.46c.005-.01.01-.02.015-.025a.155.155 0 01.04-.037l.012-.006a.933.933 0 00-.01-.142.264.264 0 00-.062-.137l-4.836-3.19h-.177z" fill="#C6ACF3" stroke="#C6ACF3" stroke-width="0.2"></path><defs><linearGradient id="icon-video_svg__paint0_linear_33289_10850" x1="13" y1="1.844" x2="13" y2="24.156" gradientUnits="userSpaceOnUse"><stop stop-color="#E0D4FF"></stop><stop offset="1" stop-color="#C0B8FF"></stop></linearGradient></defs></svg></span></span><span class="hc-upload-ic"><span class="hc-upload-ic-box"><svg width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.8"><path d="M3.422 4.844a3 3 0 013-3h9.085a3 3 0 012.424 1.233l4.07 5.584a3 3 0 01.576 1.767v10.728a3 3 0 01-3 3H6.423a3 3 0 01-3-3V4.844z" fill="#F1F7FF"></path><path d="M6.422 2.344h9.085a2.5 2.5 0 012.02 1.027l4.07 5.584a2.5 2.5 0 01.48 1.473v10.728a2.5 2.5 0 01-2.5 2.5H6.422a2.5 2.5 0 01-2.5-2.5V4.844a2.5 2.5 0 012.5-2.5z" stroke="url(#icon-audio_svg__paint0_linear_34035_11117)" stroke-opacity="0.5"></path></g><path d="M11.54 8.619a.73.73 0 01.73.73v8.017a.73.73 0 01-1.46 0V9.349c0-.403.327-.73.73-.73zm-.49 8.926l.008.017a.511.511 0 01-.028-.091l.02.074zm3.53-7.14a.73.73 0 01.73.73v4.446a.73.73 0 01-1.46 0v-4.445a.73.73 0 01.73-.731zm-.105 5.686l.105.01.104-.01a.52.52 0 01-.21 0zM8.5 11.399a.73.73 0 01.73.73v2.457a.73.73 0 11-1.46 0V12.13c0-.403.327-.73.73-.73zm9.12 0a.73.73 0 01.73.73v2.458a.73.73 0 01-1.46 0V12.13a.73.73 0 01.73-.73zm-.49 3.366l.009.018a.52.52 0 01-.029-.092l.02.074zM9.02 12.13l-.008-.092-.003-.01c.006.033.01.067.01.102zm9.12 0l-.008-.092c0-.004-.003-.007-.003-.01.006.033.01.067.01.102zm-6.08-2.78l-.008-.092-.003-.01c.006.033.01.067.01.101z" fill="#8AC2FF"></path><defs><linearGradient id="icon-audio_svg__paint0_linear_34035_11117" x1="13" y1="1.844" x2="13" y2="24.156" gradientUnits="userSpaceOnUse"><stop stop-color="#C0E0FF"></stop><stop offset="1" stop-color="#90CBFF"></stop></linearGradient></defs></svg></span></span></div></div></div></div></span></div><div class="hc-upload-list"></div></span></div></div></div></div></div></div><!-- 功能按钮行（原 .JjBtRHIL#transBottom：层级完整忠实）
+     原版结构参考：
+     .JjBtRHIL > .tk4FR4Cn（左组）+ .PD_SBwjB（右组）
+       → .ant-dropdown-trigger.uF6adESN（参考知识）
+       → .fvYiNxtv > .Cki2LZRI（个性指令：两层包装）
+       → .EFflylzd（深度思考）
+       → button.ant-btn.ant-btn-default.Dmn89frm（AI翻译） -->
+<div class="hc-actionbar" id="transBottom">
+  <div class="hc-actionbar-left">
+    <!-- 参考知识（原 .ant-dropdown-trigger.uF6adESN） -->
+    <div class="hc-pill hc-dropdown-trigger">
+      <span><span>参考知识</span>
+        <svg width="6" height="10" viewBox="0 0 6 10" fill="none"><path d="M1 1l4.5 4.2L1 9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+    </div>
+    <!-- 个性指令（原 .fvYiNxtv > .Cki2LZRI：保留两层包装） -->
+    <div class="hc-pill-wrap">
+      <div class="hc-pill">
+        <span>个性指令</span>
+      </div>
+    </div>
+    <!-- 深度思考（原 .EFflylzd） -->
+    <div class="hc-pill hc-pill-toggleable">
+      <span>深度思考</span>
+    </div>
+  </div>
+  <div class="hc-actionbar-right">
+    <!-- AI翻译（原 button.ant-btn.ant-btn-default.Dmn89frm） -->
+    <button type="button" class="hc-btn-ai"><span>AI翻译</span></button>
+  </div>
+</div>
+<!-- 划译结果浮窗（原 .FfEykO6W.DNZuKrBB：fixed 300px、平时隐藏、划词弹出） -->
+<div class="hc-result-popup hc-result-hidden">
+  <div class="hc-result-card">
+    <div class="hc-result-row">
+      <div class="hc-result-title">划译<span class="hc-result-eye">
+        <svg width="29" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.3" d="M14.118 10.927H3.882C1.747 10.927 0 9.139 0 6.953 0 4.768 1.747 2.98 3.882 2.98h10.236C16.253 2.98 18 4.768 18 6.953c-.001 2.186-1.747 3.974-3.882 3.974z" fill="#4D85FF"></path><path d="M18 6.953c0-3.291-2.687-5.96-6-5.96s-6 2.669-6 5.96c0 3.292 2.687 5.96 6 5.96s6-2.668 6-5.96z" fill="#4D85FF"></path></svg></span></div>
+    </div>
+  </div>
+</div>
+</div><div style="position: relative; width: 50%; height: 100%;"><!-- AI大模型选择器（原 .b15UFYYv + ant-select：渐变文字 + 下拉箭头） -->
+<div class="hc-model-selector">
+  <div class="hc-model-box">
+    <div class="hc-model-item" title="AI大模型翻译">AI大模型翻译</div>
+    <span class="hc-model-arrow" aria-hidden="true">
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2.5 4.5L6 8l3.5-3.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span>
+  </div>
+</div>
+<div class="xABfmCEs scroll-y-dst" style="width: 100%; height: calc(100% - 41px);"><div class="LuoYLyit UxeLEhoJ" id="machineRes"><div class="n6Ahyg47"><div class="aytrOJav" id="machineResContent" style="font-size: 24px;"></div></div></div></div></div></div></div><div><!-- 侧栏广告（原 .Hu5qsRSB：2 行 4 卡 = AI论文精翻/AI译后编辑/桌面端/APP） -->
+<div class="hc-side-ads">
+  <ul class="hc-ads-row">
+    <li>
+      <div class="hc-ads-pic hc-ads-pic-paper"></div>
+      <div class="hc-ads-txt"><strong>AI论文精翻</strong><span>像读中文论文一样<br>读英文论文</span></div>
+    </li>
+    <li>
+      <div class="hc-ads-pic hc-ads-pic-edit"></div>
+      <div class="hc-ads-txt"><strong>AI译后编辑</strong><span>人人都会用的<br>译后编辑工具</span></div>
+    </li>
+  </ul>
+  <ul class="hc-ads-row hc-ads-row-dl">
+    <li>
+      <div class="hc-ads-pic hc-ads-pic-pc"></div>
+      <div class="hc-ads-txt"><strong>百度翻译PC桌面端</strong><span>文字划译</span><span>截图翻译</span><span>AI同传</span></div>
+      <span class="hc-ads-dl-btn">下载</span>
+    </li>
+    <li>
+      <div class="hc-ads-pic hc-ads-pic-app"></div>
+      <div class="hc-ads-txt"><strong>百度翻译APP</strong><span>随身拍照翻译</span><span>AI口语陪练</span><span>实时同声传译</span></div>
+      <span class="hc-ads-dl-btn">下载</span>
+    </li>
+  </ul>
+</div>
+<div style="height: 20px;"></div></div></div></div><!-- 右侧栏（原 .qphmPPyw 卡片：面板区 + 竖排 tab 条 + 右下浮动，三者同卡） -->
+<div class="hc-right-panel">
+  <!-- 面板区（原 .CwnuC3IB：历史/智能参考/CoPilot 三面板） -->
+  <div style="position: relative; flex: 1 1; min-width: 0;">
+    <div class="hc-right-pane-outer">
+      <div class="hc-rp-pane" data-hc-panel="history" style="display: none;">
+        <div class="hc-rp-history">
+          <div class="hc-rp-head"><span>历史记录</span></div>
+          <div class="hc-rp-body">
+            <div class="hc-rp-types"><span class="hc-rp-type is-sel">文本</span><span class="hc-rp-type">图片</span><span class="hc-rp-type">文档</span><span class="hc-rp-type">文档翻译Pro</span></div>
+            <div class="hc-rp-tip"><span>为您保留近一个月的翻译记录</span><span class="hc-rp-clear">清空</span></div>
+          </div>
+          <div class="hc-rp-login"><span class="hc-rp-login-txt">未登录状态 为您展示最近10条历史记录</span><span class="hc-rp-login-btn">立即登录</span></div>
+        </div>
+      </div>
+      <div class="hc-rp-pane" data-hc-panel="zhineng" style="display: none;">
+        <div class="hc-rp-ref">
+          <div class="hc-rp-head"><span>智能参考</span></div>
+          <div class="hc-rp-ref-body">
+            <div class="hc-rp-ref-card"><div class="hc-rp-ref-title">权威术语库参考</div><div class="hc-rp-ref-sub">暂未识别到术语</div><div class="hc-rp-ref-empty"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="hc-rp-pane" data-hc-panel="AIAide" style="display: none;">
+        <div class="hc-rp-copilot">
+          <div class="hc-rp-copilot-head"><span class="hc-rp-copilot-logo"></span></div>
+          <div class="hc-rp-copilot-body">
+            <div class="hc-rp-copilot-msg">
+              <div class="hc-rp-copilot-bubble">
+                <img src="https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/icon-guide.8544858e.svg" width="19" height="19" alt="">Hi，我是您的超级助手！术语查证、译文解析、AI润色、翻译审校、内容总结、自由问答全覆盖，快来试试吧～
+              </div>
+            </div>
+          </div>
+          <div class="hc-rp-copilot-login">请登录后使用<span>立即登录</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 右侧条（原 .fYmMHp6G：竖排 tab + 右下浮动） -->
+  <div class="hc-right-side">
+    <div class="hc-right-tabs">
+      <div role="tablist" class="hc-right-tabs-nav">
+        <div class="hc-right-tabs-list">
+          <div data-node-key="AIAide" class="hc-right-tab hc-right-tab-active">
+            <div role="tab" aria-selected="true" class="hc-right-tab-btn" tabindex="0" id="hc-right-tab-aiaide" aria-controls="hc-right-panel-aiaide">
+              <span class="hc-right-tab-ic hc-right-tab-ic-ai"></span>
+            </div>
+          </div>
+          <div data-node-key="history" class="hc-right-tab">
+            <div role="tab" aria-selected="false" class="hc-right-tab-btn" tabindex="0" id="hc-right-tab-history" aria-controls="hc-right-panel-history">
+              <span class="hc-right-tab-ic hc-right-tab-ic-history"></span>
+            </div>
+          </div>
+          <div class="hc-right-tabs-ink"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hc-float-fab">
+      <span class="hc-fab-icon hc-fab-feedback" title="意见反馈"></span>
+      <span class="hc-fab-icon hc-fab-collect" title="收藏"></span>
+      <div class="hc-fab-settings"><span class="hc-fab-icon hc-fab-set" title="设置"></span></div>
+      <span class="hc-fab-icon hc-fab-switch" title="隐藏"></span>
+    </div>
+  </div>
+</div>
+</div></div></div></div><script>if (
+        window.location.href.indexOf('/mtpe-individual/multimodal') > -1
+        || window.location.href.indexOf('/mtpe-individual/transText') > -1
+    ) {
+        var prerenderElems = document.querySelectorAll('.isPrerender');
+        if (prerenderElems && prerenderElems.length) {
+            Array.from(prerenderElems).forEach(function (elem) {
+                elem.style.visibility = 'visible';
+            });
+        }
+    }</script><script src="assets/js/passApi/js/uni_login_wrapper.js"></script><iframe style="display: none !important;"></iframe><script type="text/javascript" src="assets/js/lib/pdfjs/2.6.347/pdf.min.js"></script><script type="text/javascript" src="assets/js/lib/pdfjs/2.6.347/web/pdf_viewer.js"></script><script src="assets/js/e.js"></script><script src="assets/js/heicha/abclite-extra-script/2060/index.js"></script></body></html>

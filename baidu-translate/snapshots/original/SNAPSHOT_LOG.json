@@ -1,0 +1,20 @@
+{
+  "sourceUrl": "https://fanyi.baidu.com",
+  "generatedAt": "2026-10-05T07:34:15.800Z",
+  "summary": {
+    "total": 1,
+    "errors": 1,
+    "warnings": 0,
+    "infos": 0
+  },
+  "entries": [
+    {
+      "severity": "error",
+      "category": "asset_download",
+      "source": "https://hm.baidu.com/hm.js?c777062e330c4e1baa7d2a6a75cb0e14",
+      "message": "Failed to download: Content validation failed: content type mismatch (text/plain; charset=utf-8)",
+      "detail": "Content validation failed: content type mismatch (text/plain; charset=utf-8)",
+      "timestamp": "2026-10-05T07:34:15.800Z"
+    }
+  ]
+}
